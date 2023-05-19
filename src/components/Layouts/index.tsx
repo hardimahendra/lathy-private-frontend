@@ -1,5 +1,5 @@
 import {Navbar} from "../../components/Navbar"
-import {Footer} from "../../../../client-v1/src/components/Footer"
+import {Footer} from "../../components/Footer"
 
 
 interface Layouts {

@@ -1,0 +1,18 @@
+
+/* Footer */
+.container-footer {
+    padding: 1em;
+    text-align: center;
+    flex-direction: column;
+  }
+  .lokasi h6 {
+    font-size: 20px;
+  }
+  .lokiasi p {
+    font-size: 15px;
+  }
+  
+  .copyright {
+    display: flex;
+    flex-direction: column;
+  }

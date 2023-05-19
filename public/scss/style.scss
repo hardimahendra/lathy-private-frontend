@@ -1,0 +1,72 @@
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+    }
+    
+    .report-record .report-siswa-record p{
+        animation: counterSiswa 7s infinite ease-in;
+        counter-reset: num var(--num);
+        font: 400 20px system-ui;
+    }
+    .report-record .report-guru-record p{
+        animation: counterGuru 7s infinite ease-in;
+        counter-reset: num var(--num);
+        font: 400 20px system-ui;
+    }
+    .report-record .report-mp-record p{
+        animation: counterMp 7s infinite ease-in;
+        counter-reset: num var(--num);
+        font: 400 20px system-ui;
+    }
+    .report-record .report-wilayah-record p{
+        animation: counterWilayah 7s infinite ease-in;
+        counter-reset: num var(--num);
+        font: 400 20px system-ui;
+    }
+
+    
+    .report-record .report-siswa-record p::after{
+        content: counter(num);
+    }
+    .report-record .report-guru-record p::after{
+        content: counter(num);
+    }
+    .report-record .report-mp-record p::after{
+        content: counter(num);
+    }
+    .report-record .report-wilayah-record p::after {
+        content: counter(num);
+    }
+    @keyframes counterSiswa {
+        from {
+        --num: 0;
+        }
+        to {
+        --num: 335;
+        }
+    }
+    @keyframes counterGuru {
+        from {
+        --num: 0;
+        }
+        to {
+        --num: 86;
+        }
+    }
+    @keyframes counterMp {
+        from {
+        --num: 0;
+        }
+        to {
+        --num: 29;
+        }
+    }
+    @keyframes counterWilayah {
+        from {
+        --num: 0;
+        }
+        to {
+        --num: 8;
+        }
+    }

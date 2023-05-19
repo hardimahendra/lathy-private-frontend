@@ -1,0 +1,660 @@
+* {
+  font-family: 'Montserrat';
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100vh;
+  width: 100%;
+}
+
+.index, .container-home, 
+.container-profil, .container-galeri,
+.container-kontak, .container-guru, 
+.header-nav, .container-footer, .container-regisMember, 
+.container-regisSiswa, .container-regisGuru, 
+.container-login {
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00546b, #000046); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00546b, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container-index, .container-home, 
+.container-profil, .container-galeri,
+.container-kontak, .container-guru, .container-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  overflow: hidden;
+}
+/* **************************** Index CSS **************************** */
+.index {
+  padding: 1em;
+  justify-content: center;
+}
+.container-index {
+  padding: 10px;
+}
+.container-index .content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logo-maskot {
+  padding-top: 1.79rem;
+}
+
+.content-text {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.content-text .info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container-index .info h1 {
+  font-size: 50px;
+  padding-bottom: 1rem;
+  color: gold;
+}
+.container-index .info h4 {
+  font-size: 22px;
+  padding-bottom: 1.5rem;
+}
+.container-index .more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.info .more h5 {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.info .more a {
+  height:40px;
+  width:100px;
+  line-height: 40px;
+  color: white;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+.info a:hover {
+  color: gold;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+}
+
+/* ************************* Home CSS **************************** */
+.container-home {
+  flex-direction: column;
+  height: 100%;
+  padding: 2rem;
+  color: #fff;
+  overflow:hidden;
+}
+/* ======= right content home ======= */
+.left-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+/* ==== Layanan ===== */
+.left-content .layanan {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.content-layanan{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.content-layanan .belajar-rumah,
+.content-layanan .guru-les,
+.content-layanan .waktu-flexibel,
+.content-layanan .report-siswa {
+  height: 250px;
+  width: 500px;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.belajar-rumah:hover,
+.guru-les:hover,
+.waktu-flexibel:hover,
+.report-siswa:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.belajar-rumah span,
+.guru-les span,
+.waktu-flexibel span,
+.report-siswa span {
+  display: block;
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+}
+.belajar-rumah span img,
+.guru-les span img,
+.waktu-flexibel span img,
+.report-siswa span img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  padding-top: 25px;
+
+}
+.text-content h6 {
+  font-size: 20px;
+}
+.text-content p {
+  font-size: 15px;
+  overflow-wrap: break-word;
+}
+/* ======== Record ====== */
+.report-record {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  justify-content: center;
+}
+.report-siswa-record,
+.report-guru-record,
+.report-mp-record,
+.report-wilayah-record {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 0.2s;
+}
+.report-siswa-record:hover,
+.report-guru-record:hover,
+.report-mp-record:hover,
+.report-wilayah-record:hover {
+  border-radius: 40px;
+  transform: scale(1.1);
+}
+.report-siswa-record h6,
+.report-guru-record h6,
+.report-mp-record h6,
+.report-wilayah-record h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.report-siswa-record p,
+.report-guru-record p,
+.report-mp-record p,
+.report-wilayah-record p {
+  font-size: 15px;
+  margin: 0;
+}
+/* ======= right Content home ====== */
+.right-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+/* ====== opsional les selection ====== */
+.opsi-les {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items: center;
+}
+.les-tk,
+.les-sd,
+.les-smp,
+.les-sma {
+  padding: 10px;
+  margin: 0 10px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  transition: 0.2s;
+}
+.les-tk:hover,
+.les-sd:hover,
+.les-smp:hover,
+.les-sma:hover {
+  cursor: pointer;
+  background: rgb(86, 184, 241);
+  background: radial-gradient(circle, rgba(86, 184, 241, 1) 13%, rgba(34, 35, 68, 1) 82%);
+  transform: scale(1.1);
+  padding: 10px;
+}
+.les-tk h6,
+.les-sd h6,
+.les-smp h6,
+.les-sma h6 {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.les-tk img,
+.les-sd img,
+.les-smp img,
+.les-sma img {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ==== take record alumni====== */
+.cerita-sukses {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+.cerita-sukses .judul-cerita h6 {
+  font-size: 25px;
+  padding: 20px;
+}
+
+/* ======= Content Bottom ======== */
+.content-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+}
+.judul-content-bottom h6 {
+  font-size: 25px;
+
+}
+.isi-content-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.isi-content-bottom span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.isi-content-bottom span:hover {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: scale(1.1);
+}
+.isi-content-bottom span i {
+  padding-top: 7px;
+  height: 7px;
+  width: 7px;
+}
+
+/* **************************** Profil CSS **************************** */
+.container-profil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height:100%;
+}
+.container-profil .profil-info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+  .profil-info .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 110px;
+    width: 175px;
+  }
+  .profil-info .info i{
+    font-size:30px;
+    cursor: pointer;
+    transition:0.3s;
+  }
+
+  .profil-info .info i:hover{
+    transform:scale(1.2);
+  }
+  .container-profil .layanan-keunggulan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 1rem;
+  margin: 4rem 12rem;
+}
+.layanan-keunggulan .keunggulan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.layanan-keunggulan .keunggulan span {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  height: 220px;
+  width: 350px;
+}
+.keunggulan span:hover {
+  transform: scale(1.1);
+}
+.keunggulan span i {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+}
+.keunggulan span h6 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.keunggulan span p {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+/* ****************** Galeri CSS *************************** */
+.container-galeri {
+  flex-direction: column;
+  height: 100%;
+  padding: 2rem;
+  color: #fff;
+}
+
+.container-galeri .galeri-foto,
+.container-galeri .galeri-video {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.galeri-foto .foto,
+.galeri-video .video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  border-bottom: 1px solid gold;
+}
+.foto img {
+  object-fit: cover;
+  padding-top: 10px;
+  width: 400px;
+  height: 350px;
+  max-height: 300px;
+  transition: 0.2s;
+}
+.foto img:hover {
+  cursor: zoom-in;
+  transform: scale(1.1);
+}
+.foto p,
+.video p {
+  padding-top: 25px;
+  font-size: 15px;
+  width: 80%;
+}
+.video img {
+  object-fit: cover;
+  width: 450px;
+  height: 350px;
+  margin: 5px;
+}
+
+/* ******************* Daftar Guru CSS *******************  */
+.container-guru {
+  flex-direction: column;
+  padding: 1.5rem;
+  color: #fff;
+}
+.container-guru .daftar-guru {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.daftar-guru .guru {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 350px;
+  width: 250px;
+  border-bottom: 1px solid gold;
+  margin: 10px;
+}
+.guru .nama {
+  font-size: 17px;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+.guru img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 10px 0px;
+  transition: 0.3s;
+}
+.guru img:hover {
+  cursor: zoom-in;
+  transform: scale(1.3);
+}
+.guru .spesialis,
+.guru .pendidikan {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+/* ****************** Kontak CSS ******************************** */
+.container-kontak {
+  flex-flow: row wrap ;
+}
+.container-kontak .info-kontak,
+.container-kontak .pesan-kontak {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.info-kontak .contact-us {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.contact-us .no,
+.contact-us .cs,
+.contact-us .social-media {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+}
+.no h6,
+.cs h6,
+.social-media h6 {
+  padding-bottom: 15px;
+}
+.facebook {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+.instagram {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+.twitter {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+.social-media i {
+  color: white;
+  transition: 0.2s;
+}
+.instagram i:hover {
+  color: rgb(208, 28, 142);
+  transform: scale(1.3);
+}
+.twitter i:hover {
+  color: rgb(27, 114, 252);
+  transform: scale(1.3);
+}
+.facebook i:hover {
+  color: blue;
+  transform: scale(1.3);
+}
+.info-kontak .info-lokasi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.info-lokasi .info-maps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.info-maps iframe {
+  object-fit: cover;
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+  transition: 0.2s;
+}
+.info-maps iframe:hover {
+  transform: scale(1.1);
+}
+.pesan-kontak .kirim-pesan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kirim-pesan form {
+  height: 100%;
+  width: 100%;
+}
+
+/* Not Found Pages */
+.container-404{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100vh;
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00546b, #000046); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00546b, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container-404 .not-found{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  width:400px;
+  height:400px;
+}
+.container-404 .not-found h1{
+  color: black;
+  font-weight: bold;
+  font-size:50px;
+}
+.container-404 .not-found h3{
+  color:$eee;
+  font-style: italic;
+  animation:
+}
+.container-404 .not-found h5{
+  color: black;
+  font-weight: normal;
+}
+

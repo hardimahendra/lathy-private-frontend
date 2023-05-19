@@ -1,0 +1,98 @@
+.header-nav {
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header-nav h3{
+    font-size:25px;
+    color: gold;
+    padding-top:10px;
+  }
+  .container-navbar {
+    border:none;
+    background: #000046; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00546b, #000046); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00546b, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .container-navbar .navbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    z-index: 5;
+  }
+  .navbar-wrapper .brand a {
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+  .navbar-wrapper .brand a img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .navbar-wrapper .navbar-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:20px;
+  }
+  .navbar-left a{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    height:40px;
+    line-height:40px;
+    width: 100px;
+  }
+
+  .navbar-left a:hover { 
+    color: gold;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+  .navbar-wrapper .navbar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right:20px;
+  }
+  .navbar-right a{
+    height:40px;
+    width: 100px;
+    color: #ffffff;
+    line-height:40px;
+    text-align:center;
+    text-decoration: none;
+  }
+  .navbar-right a:hover {
+    color: gold;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+
+  /* ============== Toggle Navbar =================*/
+  .navbar-wrapper .navbar-toggle{
+    display: none;
+  }
+  .navbar-toggle nav{
+    display:none;
+  }
+
+  .navbar-toggle span i{
+    text-align: center;
+    font-size:40px;
+    width:80px;
+    color: white;
+  }
+
+  

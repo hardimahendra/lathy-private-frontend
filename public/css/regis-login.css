@@ -1,0 +1,287 @@
+/* ******************************** Untuk Halaman Pilih Member ******************************** */
+.container-regisMember, 
+.container-regisSiswa,
+.container-regisGuru,
+.container-login
+ {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13.4em 0;
+    overflow: hidden;
+  }
+  .container-regisMember .content-regisMember, 
+  .container-login .content-login  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    background: rgba(116, 115, 115, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+  .container-regisSiswa .content-regisSiswa,
+  .container-regisGuru .content-regisGuru{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    background: rgba(116, 115, 115, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+  .content-regisMember div h1, 
+  .content-login div h1,
+  .container-regisSiswa .content-regisSiswa h4,
+  .container-regisGuru .content-regisGuru h4{
+    color: gold;
+  }
+  .opsi-regis {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 25px;
+  }
+  .opsi-regis a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+
+  }
+
+  .back-to-home a:hover,
+  .submit-login a:hover,
+  .opsi-regis a:hover {
+    color: gold;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+  
+  /* ******************************** Untuk Halaman Login ******************************** */
+  .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem 0;
+  }
+  .login input{
+    margin: 15px 0;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+  }
+
+  .login button{
+    background: transparent;
+    border: none;
+    margin: 10px 0;
+    padding-bottom:1rem;
+  }
+  
+  .login button a{
+    text-decoration: none;
+    color: white;
+  }
+  .login button a:hover{
+    border-bottom: 1px solid gold;
+    color: gold;
+  }
+
+  .back-to-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    padding-top:3rem;
+  }
+  .back-to-home a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    padding:20px;
+    margin:0 10px;
+  }
+
+  .submit-login{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:250px;
+    height:50px;
+    margin-bottom:1rem;
+  }
+  .submit-login a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    padding:20px;
+    margin:0 10px;
+  }
+
+  /* ================= Regis Siswa Page */
+  .container-regisSiswa .content-regisSiswa{
+    display:flex;
+    position:relative;
+  }
+
+  .content-regisSiswa .back,
+  .content-regisGuru .back{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    top:3%;
+    left:3%;
+    height:60px;
+    width:60px;
+
+  }
+  .content-regisSiswa .back a,
+  .content-regisGuru .back a{
+    color: gold;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .content-regisSiswa .back:hover,
+  .content-regisGuru .back:hover{
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+  .content-regisSiswa .top, 
+  .content-regisSiswa .middle,
+  .content-regisSiswa .bottom,
+  .content-regisGuru .top, 
+  .content-regisGuru .middle,
+  .content-regisGuru .middle-guru,
+  .content-regisGuru .bottom{
+    width:500px;
+    height:60px;
+    margin:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-bottom:1px solid gold;
+  }
+
+  .content-regisSiswa .bottom .radioInput,
+  .content-regisGuru .bottom .radioInput{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin:0 20px;
+    width:100%;
+  }
+
+  .content-regisSiswa .bottom .radioInput input,
+  .content-regisGuru .bottom .radioInput input{
+    height:35px;
+    width:35px;
+    margin:0 auto;
+  }
+
+  .content-regisSiswa .top input,
+  .content-regisSiswa .middle input,
+  .content-regisSiswa .bottom .pass input,
+  .content-regisGuru .top input,
+  .content-regisGuru .middle input,
+  .content-regisGuru .middle-guru input,
+  .content-regisGuru .bottom .pass input{
+    border-radius:20px;
+    margin:0 10px;
+    padding:0 10px;
+    height:40px;
+    border:none;
+  }
+  .content-regisSiswa .top input,
+  .content-regisSiswa .bottom .pass input,
+  .content-regisGuru .top input,
+  .content-regisGuru .bottom .pass input,
+  .content-regisGuru .middle-guru input{
+    width:250px;
+  }
+  .content-regisSiswa .middle input,
+  .content-regisGuru .middle input{
+    width:100%;
+  }
+  .content-login form, 
+  .content-regisSiswa form, 
+  .content-regisGuru form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+  }
+  .content-regisSiswa form .btn-submit,
+  .content-regisGuru form .btn-submit{
+    height:60px;
+    margin-top:3rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .content-regisSiswa form .btn-submit .submit-regisSiswa,
+  .content-regisGuru form .btn-submit .submit-regisGuru{
+    border:none;
+    background:transparent;
+    color:gold;
+    border-radius:20px;
+    width:150px;
+    height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:17px;
+  }
+
+  .content-regisSiswa form .btn-submit .submit-regisSiswa:hover,
+  .content-regisGuru form .btn-submit .submit-regisGuru:hover{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+  }

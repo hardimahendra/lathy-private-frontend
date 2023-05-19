@@ -1,0 +1,198 @@
+{
+    "daftarGuru": [
+        {
+            "id": 1,
+            "name": "Amber Carey",
+            "image": "./img/users/guru/guru-1.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        },
+        {
+            "id": 2,
+            "name": "Nell Andersen",
+            "image": "./img/users/guru/guru-2.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        },
+        {
+            "id": 3,
+            "name": "Macauley Nicholson",
+            "image": "./img/users/guru/guru-3.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        },
+        {
+            "id": 4,
+            "name": "Gabriela Richard",
+            "image": "./img/users/guru/guru-4.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        },
+        {
+            "id": 5,
+            "name": "Elisa Byrne",
+            "image": "./img/users/guru/guru-5.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        },
+        {
+            "id": 6,
+            "name": "Shirley Alexander",
+            "image": "./img/users/guru/guru-6.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        },
+        {
+            "id": 7,
+            "name": "Ashley Miranda",
+            "image": "./img/users/guru/guru-7.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        },
+        {
+            "id": 8,
+            "name": "Anisa Pruitt",
+            "image": "./img/users/guru/guru-8.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        },
+        {
+            "id": 9,
+            "name": "Sally Bowers",
+            "image": "./img/users/guru/guru-9.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        },
+        {
+            "id": 10,
+            "name": "Pauline Meyer",
+            "image": "./img/users/guru/guru-10.jpg",
+            "field": "Matematika",
+            "education": "Universitas Indonesia"
+        }
+    ],
+    "documentasiKegiatan": [
+        {
+            "id": 1,
+            "image": "./img/galeri/foto/foto-1.jpg",
+            "content": "Guru ke Rumah"
+        },
+        {
+            "id": 2,
+            "image": "./img/galeri/foto/foto-2.jpg",
+            "content": "Guru ke Rumah"
+        },
+        {
+            "id": 3,
+            "image": "./img/galeri/foto/foto-3.jpg",
+            "content": "Guru ke Rumah"
+        },
+        {
+            "id": 4,
+            "image": "./img/galeri/foto/foto-4.jpg",
+            "content": "Guru ke Rumah"
+        },
+        {
+            "id": 5,
+            "image": "./img/galeri/foto/foto-5.jpg",
+            "content": "Guru ke Rumah"
+        },
+        {
+            "id": 6,
+            "image": "./img/galeri/foto/foto-6.jpg",
+            "content": "Guru ke Rumah"
+        },
+        {
+            "id": 7,
+            "image": "./img/galeri/foto/foto-7.jpg",
+            "content": "Guru ke Rumah"
+        },
+        {
+            "id": 8,
+            "image": "./img/galeri/foto/foto-8.jpg",
+            "content": "Guru ke Rumah"
+        },
+        {
+            "id": 9,
+            "image": "./img/galeri/foto/foto-9.jpg",
+            "content": "Guru ke Rumah"
+        },
+        {
+            "id": 10,
+            "image": "./img/galeri/foto/foto-10.jpg",
+            "content": "Guru ke Rumah"
+        }
+    ],
+    "swipperData":[
+        {
+            "id":1,
+            "name": "Peters Bethan",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/1.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        },
+        {
+            "id":2,
+            "name": "Leslie Morse",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/2.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        },
+        {
+            "id":3,
+            "name": "Edmund Miller",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/3.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        },
+        {
+            "id":4,
+            "name": "Eric Oconnor",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/4.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        },
+        {
+            "id":5,
+            "name": "Addie Peters",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/5.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        },
+        {
+            "id":6,
+            "name": "Zarah Hunter",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/6.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        },
+        {
+            "id":7,
+            "name": "Casper Barlow",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/7.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        },
+        {
+            "id":8,
+            "name": "Jemima Mosley",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/8.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        },
+        {
+            "id":9,
+            "name": "Marcel Dennis",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/9.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        },
+        {
+            "id":10,
+            "name": "Carla Harding",
+            "judul": "Pelajaran Matematika",
+            "image": "./img/users/10.jpg",
+            "information": "Berhasil meningkatkan nilai Matematika di sekolah"
+        }
+    ]
+}

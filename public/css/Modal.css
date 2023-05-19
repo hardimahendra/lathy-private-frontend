@@ -1,0 +1,161 @@
+.modal{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+.modal-content{
+    background:#fff;
+    margin-top: 100px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 24px;
+    border-radius:4px;
+    z-index: 4;
+}
+
+.modal-header{
+    font-weight: 500;
+    padding:10px 0;
+    font-size: 26px;
+}
+
+.modal-header .modal-close{
+    float: right;
+    font-size: 20px;
+    background:transparent;
+    border: 0;
+    outline: 0;
+    padding: 5px 8px;
+}
+
+.modal-body{
+    color: #7b7b7b;
+    padding:15px 0;
+}
+
+
+  /* ========================== Modal Regis */
+  .modal-siswa-container,
+  .modal-guru-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    background: #000046; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00546b, #000046); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00546b, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .modal-siswa-container .modal-siswa-content,
+  .modal-guru-container .modal-guru-content{
+    width:700px;
+    height:550px;
+    background:#ffffff;
+    color:black;
+    box-shadow:0 0 20px 0 #000;
+  }
+
+  .modal-siswa-content .modal-siswa-header,
+  .modal-guru-content .modal-guru-header{
+    background:#272727;
+    height:50px;
+    color:gold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .modal-siswa-content .modal-siswa-body,
+  .modal-guru-content .modal-guru-body{
+    padding: 7px 20px;
+    position:relative;
+    height:91%;
+  }
+
+  .modal-siswa-content .modal-siswa-body .data-input .action,
+  .modal-guru-content .modal-guru-body .data-input .action,
+  .modal-siswa-content .modal-siswa-body .deleted-action,
+  .modal-guru-content .modal-guru-body .deleted-action{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    right:0%;
+    bottom:5%;
+    height:50px;
+    padding:0 15px;
+  }
+  .modal-siswa-content .modal-siswa-body .data-input .action a,
+  .modal-guru-content .modal-guru-body .data-input .action a,
+  .modal-siswa-content .modal-siswa-body .deleted-action a,
+  .modal-guru-content .modal-guru-body .deleted-action a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    margin:0 5px;
+    padding:10px;
+    background:green;
+    border:none;
+    color: black;
+    width:70px;
+    transition:all 0.5s;
+  }
+  .modal-siswa-content .modal-siswa-body .data-input .action button,
+  .modal-guru-content .modal-guru-body .data-input .action button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    margin:0 5px;
+    padding:10px;
+    background:red;
+    border:none;
+    color: black;
+    width:70px;
+    transition:all 0.5s;
+  }
+
+  .modal-siswa-content .modal-siswa-body .data-input .action a:hover ,
+  .modal-guru-content .modal-guru-body .data-input .action a:hover,
+  .modal-siswa-content .modal-siswa-body .deleted-action a:hover,
+  .modal-guru-content .modal-guru-body .deleted-action a:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 5px 0 #000;
+  }
+  .modal-siswa-content .modal-siswa-body .data-input .action button:hover,
+  .modal-guru-content .modal-guru-body .data-input .action button:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 5px 0 #000;
+  }
+
+  .modal-siswa-content .modal-siswa-body .title .success,
+  .modal-guru-content .modal-guru-body .title .success{
+    padding:5px;
+    background:lightgreen;
+    border-radius:10px;
+  }
+
+  .modal-siswa-content .modal-siswa-body .informasi .flash-warning .warning,
+  .modal-guru-content .modal-guru-body .informasi .flash-warning .warning{
+    margin-top:20px;
+  }
+
+  .modal-siswa-content .modal-siswa-body .informasi .flash-warning .warning,
+  .modal-guru-content .modal-guru-body .informasi .flash-warning .warning{
+    padding:5px;
+    background:red;
+    border-radius:10px;
+    font-weight:bold;
+  }
+
+#back-regis, #title-deleted, #body-deleted, #warning-deleted{
+    display:none;
+  }

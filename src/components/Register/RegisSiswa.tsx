@@ -17,7 +17,7 @@ export function RegisSiswa() {
   const addSiswa = async(e:any) => {
     e.preventDefault();
     try{
-    await axios.post('http://localhost:5000/auth/register/siswa', {
+    await axios.post('https://lathy-private-backend-production.up.railway.app/auth/register/siswa', {
       nameSiswa,
       emailSiswa,
       genderSiswa,

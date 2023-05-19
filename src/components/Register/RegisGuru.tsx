@@ -19,7 +19,7 @@ export function RegisGuru() {
   const addGuru = async(e:any) => {
   e.preventDefault();
     try{
-      await axios.post('http://localhost:5000/auth/register/guru', {
+      await axios.post('https://lathy-private-backend-production.up.railway.app/auth/register/guru', {
         nameGuru,
         emailGuru,
         genderGuru,

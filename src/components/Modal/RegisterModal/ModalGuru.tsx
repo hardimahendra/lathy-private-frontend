@@ -9,12 +9,12 @@ export function ModalGuru() {
     }, []);
 
     const getGuru = async() => {
-        const response = await axios.get('http://localhost:5000/auth/register/guru')
+        const response = await axios.get('https://lathy-private-backend-production.up.railway.app/auth/register/guru')
         setGuru(response.data);
     }
     const deleteGuru = async(id:any) => {
         try{
-            await axios.delete(`http://localhost:5000/auth/register/guru/${id}`)
+            await axios.delete(`https://lathy-private-backend-production.up.railway.app/auth/register/guru/${id}`)
             .then(res => {
                 getGuru();
             }).catch(err => {

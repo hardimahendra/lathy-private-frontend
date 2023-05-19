@@ -21,8 +21,8 @@ import {NotFound} from './pages/notFoundPages/NotFound';
 // import {AddUser} from "./components/Users/AddUser";
 // import {EditUser} from "./components/Users/EditUser";
 
-import {ModalSiswa} from "../../client/src/components/Modal/RegisterModal/ModalSiswa";
-import {ModalGuru} from "../../client/src/components/Modal/RegisterModal/ModalGuru";
+import { ModalSiswa } from './components/Modal/RegisterModal/ModalSiswa';
+import { ModalGuru } from './components/Modal/RegisterModal/ModalGuru';
 
 
 function App() {

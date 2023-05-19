@@ -9,12 +9,12 @@ export function ModalSiswa() {
     }, []);
 
     const getSiswa = async() => {
-        const response = await axios.get('http://localhost:5000/auth/register/siswa')
+        const response = await axios.get('https://lathy-private-backend-production.up.railway.app/auth/register/siswa')
         setSiswa(response.data);
     }
     const deleteSiswa = async(id:any) => {
         try{
-            await axios.delete(`http://localhost:5000/auth/register/siswa/${id}`);
+            await axios.delete(`https://lathy-private-backend-production.up.railway.app/auth/register/siswa/${id}`);
             getSiswa();
         }catch(err){
             console.log(err);

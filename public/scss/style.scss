@@ -1,0 +1,72 @@
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+    }
+    
+    .record .siswa-record p{
+        animation: counterSiswa 7s infinite ease-in;
+        counter-reset: num var(--num);
+        font: 400 20px system-ui;
+    }
+    .record .guru-record p{
+        animation: counterGuru 7s infinite ease-in;
+        counter-reset: num var(--num);
+        font: 400 20px system-ui;
+    }
+    .record .mp-record p{
+        animation: counterMp 7s infinite ease-in;
+        counter-reset: num var(--num);
+        font: 400 20px system-ui;
+    }
+    .record .wilayah-record p{
+        animation: counterWilayah 7s infinite ease-in;
+        counter-reset: num var(--num);
+        font: 400 20px system-ui;
+    }
+
+    
+    .record .siswa-record p::after{
+        content: counter(num);
+    }
+    .record .guru-record p::after{
+        content: counter(num);
+    }
+    .record .mp-record p::after{
+        content: counter(num);
+    }
+    .record .wilayah-record p::after {
+        content: counter(num);
+    }
+    @keyframes counterSiswa {
+        from {
+        --num: 0;
+        }
+        to {
+        --num: 335;
+        }
+    }
+    @keyframes counterGuru {
+        from {
+        --num: 0;
+        }
+        to {
+        --num: 86;
+        }
+    }
+    @keyframes counterMp {
+        from {
+        --num: 0;
+        }
+        to {
+        --num: 29;
+        }
+    }
+    @keyframes counterWilayah {
+        from {
+        --num: 0;
+        }
+        to {
+        --num: 8;
+        }
+    }

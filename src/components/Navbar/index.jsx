@@ -56,9 +56,6 @@ const index = () => {
             <Link to="https://api.whatsapp.com/send?phone=%2B6285892759932" className="hover:text-green-500" target="_blank">
               <FaWhatsapp />
             </Link>
-            <NavLink to="/login" className="px-6 py-2 font-medium rounded hover:bg-orange-500 hover:text-blue-300 transition-all duration-200 ">
-              Login
-            </NavLink>
             <NavLink to="/register" className="px-6 py-2 font-medium rounded hover:bg-orange-500 hover:text-blue-300 transition-all duration-200 ">
               Daftar
             </NavLink>

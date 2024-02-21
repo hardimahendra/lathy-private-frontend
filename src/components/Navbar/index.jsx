@@ -7,12 +7,12 @@ const index = () => {
     setMenuIsOpen(!menuOpen);
   };
   const navItem = [
-    { id: 1, path: '/profil', link: 'Profil' },
-    { id: 2, path: '/galery', link: 'Program' },
-    { id: 3, path: '/daftarGuru', link: 'Testimoni' },
-    { id: 4, path: '/contacts', link: 'Contacts' },
-    { id: 5, path: '/paket', link: 'paket' },
-    { id: 6, path: '/register', link: 'Daftar' },
+    { id: 1, path: '/progman', link: 'Program' },
+    { id: 2, path: '/profil', link: 'Profil' },
+    { id: 3, path: '/testimoni', link: 'Testimoni' },
+    { id: 4, path: '/paket', link: 'Paket Les' },
+    { id: 6, path: '/contacts', link: 'Contacts' },
+    { id: 7, path: '/register', link: 'Daftar' },
   ];
   return (
     <>

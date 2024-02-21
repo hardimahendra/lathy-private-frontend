@@ -1,20 +1,19 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { FaWhatsapp, FaXmark, FaBars } from 'react-icons/fa6';
-
 const index = () => {
   const [menuOpen, setMenuIsOpen] = useState(false);
   const toggleMenu = () => {
     setMenuIsOpen(!menuOpen);
   };
   const navItem = [
-    { path: '/home', link: 'Home' },
-    { path: '/profil', link: 'Profil' },
-    { path: '/galery', link: 'Galery' },
-    { path: '/daftarGuru', link: 'Daftar Guru' },
-    { path: '/contacts', link: 'Contacts' },
-    { path: '/login', link: 'Login' },
-    { path: '/register', link: 'Daftar' },
+    { id: 1, path: '/home', link: 'Home' },
+    { id: 2, path: '/profil', link: 'Profil' },
+    { id: 3, path: '/galery', link: 'Galery' },
+    { id: 4, path: '/daftarGuru', link: 'Daftar Guru' },
+    { id: 5, path: '/contacts', link: 'Contacts' },
+    { id: 6, path: '/login', link: 'Login' },
+    { id: 7, path: '/register', link: 'Daftar' },
   ];
   return (
     <>
@@ -25,13 +24,17 @@ const index = () => {
             <NavLink to="/">
               <img className="w-10" src="./icons/maskot.png" alt="brand" />
             </NavLink>
-            {navItem.map(({ path, link }) => (
-              <li className="text-white text-decoration-none" key={path}>
-                <NavLink className={({ isActive, isPending }) => (isActive ? 'active' : isPending ? 'pending' : '')} to={path}>
-                  {link}
-                </NavLink>
-              </li>
-            ))}
+            {navItem.map(({ id, path, link }) => {
+              if (id < 6 || id === 5) {
+                return (
+                  <li className="text-white text-decoration-none" key={path}>
+                    <NavLink className={({ isActive, isPending }) => (isActive ? 'active' : isPending ? 'pending' : '')} to={path}>
+                      {link}
+                    </NavLink>
+                  </li>
+                );
+              }
+            })}
           </ul>
           {/* medium size*/}
           <div className="flex w-auto gap-4 lg:hidden">
@@ -55,7 +58,9 @@ const index = () => {
             <Link to="https://api.whatsapp.com/send?phone=%2B6285892759932" className="hover:text-green-500" target="_blank">
               <FaWhatsapp />
             </Link>
-            <NavLink to="/login">Login</NavLink>
+            <NavLink to="/login" className="px-6 py-2 font-medium rounded hover:bg-orange-500 hover:text-blue-300 transition-all duration-200 ">
+              Login
+            </NavLink>
             <NavLink to="/register" className="px-6 py-2 font-medium rounded hover:bg-orange-500 hover:text-blue-300 transition-all duration-200 ">
               Daftar
             </NavLink>

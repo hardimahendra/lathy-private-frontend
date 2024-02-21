@@ -7,12 +7,11 @@ const index = () => {
     setMenuIsOpen(!menuOpen);
   };
   const navItem = [
-    { id: 1, path: '/progman', link: 'Program' },
-    { id: 2, path: '/profil', link: 'Profil' },
-    { id: 3, path: '/testimoni', link: 'Testimoni' },
-    { id: 4, path: '/paket', link: 'Paket Les' },
-    { id: 6, path: '/contacts', link: 'Contacts' },
-    { id: 7, path: '/register', link: 'Daftar' },
+    { id: 1, path: '/jenjang', link: 'Jenjang' },
+    { id: 2, path: '/testimoni', link: 'Testimoni' },
+    { id: 3, path: '/program', link: 'Program Belajar' },
+    { id: 4, path: '/profil', link: 'Tentang Kami' },
+    { id: 5, path: '/register', link: 'Daftar' },
   ];
   return (
     <>

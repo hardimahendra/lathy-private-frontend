@@ -7,13 +7,12 @@ const index = () => {
     setMenuIsOpen(!menuOpen);
   };
   const navItem = [
-    { id: 1, path: '/home', link: 'Home' },
-    { id: 2, path: '/profil', link: 'Profil' },
-    { id: 3, path: '/galery', link: 'Galery' },
-    { id: 4, path: '/daftarGuru', link: 'Daftar Guru' },
-    { id: 5, path: '/contacts', link: 'Contacts' },
-    { id: 6, path: '/login', link: 'Login' },
-    { id: 7, path: '/register', link: 'Daftar' },
+    { id: 1, path: '/profil', link: 'Profil' },
+    { id: 2, path: '/galery', link: 'Program' },
+    { id: 3, path: '/daftarGuru', link: 'Testimoni' },
+    { id: 4, path: '/contacts', link: 'Contacts' },
+    { id: 5, path: '/paket', link: 'paket' },
+    { id: 6, path: '/register', link: 'Daftar' },
   ];
   return (
     <>

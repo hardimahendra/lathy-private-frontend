@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.css';
 axios.defaults.withCredentials = true;
 
-import Index from './pages/Index';
+// import Index from './pages/Index';
 import Home from './pages/MainPages/Home';
 import Profil from './pages/MainPages/Profil';
 import Galery from './pages/MainPages/Galery';
@@ -22,7 +22,6 @@ import Jenjang from './components/Modal/ProfilModal/Jenjang';
 import Layanan from './components/Modal/ProfilModal/Layanan';
 import Kenyamanan from './components/Modal/ProfilModal/Kenyamanan';
 
-import Dashboard from './pages/Dashboard/Users';
 
 import NotFound from './pages/notFoundPages/NotFound';
 
@@ -32,8 +31,8 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       // Main Routes
-      { path: '/', element: <Index /> },
-      { path: '/home', element: <Home /> },
+      { path: '/', element: <Home /> },
+      // { path: '/home', element: <Home /> },
       { path: '/profil', element: <Profil /> },
       { path: '/galery', element: <Galery /> },
       { path: '/daftarGuru', element: <DaftarGuru /> },
@@ -48,7 +47,6 @@ const router = createBrowserRouter([
       { path: '/kenyamanan', element: <Kenyamanan /> },
       { path: '/notFound', element: <NotFound /> },
 
-      { path: '/dashboard', element: <Dashboard /> },
     ],
   },
 ]);

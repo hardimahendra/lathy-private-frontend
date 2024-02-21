@@ -24,7 +24,7 @@ const index = () => {
               <h1>Lathy Private</h1>
             </NavLink>
             {navItem.map(({ id, path, link }) => {
-              if (id < 6 || id === 5) {
+              if (id <= 5) {
                 return (
                   <li className="text-white text-decoration-none" key={path}>
                     <NavLink className={({ isActive, isPending }) => (isActive ? 'active' : isPending ? 'pending' : '')} to={path}>

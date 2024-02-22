@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { FaArrowDown } from 'react-icons/fa6';
 
 const ProgramBelajar = () => {
   const [index, setIndex] = useState(0);
@@ -9,21 +8,17 @@ const ProgramBelajar = () => {
         <div className="flex flex-column items-center justify-center">
           <h1 className="text-lg font-bold">Program Les Private</h1>
           <div className="flex flex-row flex-wrap justify-between items-center gap-1 w-full  my-4 p-2">
-            <button className={`flex justify-around items-center gap-4 hover:border-b-2 hover:border-orange-500 transition-all duration-200 w-[150px] h-[40px] `} onClick={() => setIndex(0)}>
+            <button className={`flex justify-around items-center gap-4 hover:border-b-2 hover:border-orange-500 transition-all duration-100 w-[150px] h-[40px] `} onClick={() => setIndex(0)}>
               SD
-              <FaArrowDown />
             </button>
-            <button className="flex justify-around items-center gap-4 hover:border-b-2 hover:border-orange-500 transition-all duration-200 w-[150px] h-[40px] " onClick={() => setIndex(1)}>
+            <button className="flex justify-around items-center gap-4 hover:border-b-2 hover:border-orange-500 transition-all duration-100 w-[150px] h-[40px] " onClick={() => setIndex(1)}>
               SMP
-              <FaArrowDown />
             </button>
-            <button className="flex justify-around items-center gap-4 hover:border-b-2 hover:border-orange-500 transition-all duration-200 w-[150px] h-[40px] " onClick={() => setIndex(2)}>
+            <button className="flex justify-around items-center gap-4 hover:border-b-2 hover:border-orange-500 transition-all duration-100 w-[150px] h-[40px] " onClick={() => setIndex(2)}>
               SMA
-              <FaArrowDown />
             </button>
-            <button className="flex justify-around items-center gap-4 hover:border-b-2 hover:border-orange-500 transition-all duration-200 w-[150px] h-[40px] " onClick={() => setIndex(3)}>
+            <button className="flex justify-around items-center gap-4 hover:border-b-2 hover:border-orange-500 transition-all duration-100 w-[150px] h-[40px] " onClick={() => setIndex(3)}>
               Kuliah
-              <FaArrowDown />
             </button>
           </div>
           <div className="flex flex-column text-left pt-2" hidden={index != 0}>

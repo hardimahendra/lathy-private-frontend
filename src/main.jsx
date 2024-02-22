@@ -10,7 +10,7 @@ axios.defaults.withCredentials = true;
 import Index from './pages/Index';
 import Home from './pages/MainPages/Home';
 import Keunggulan from './pages/MainPages/Keunggulan';
-import Galery from './pages/MainPages/Galery';
+import Galery from './pages/MainPages/PaketProgram';
 import ProgramBelajar from './pages/MainPages/ProgramBelajar';
 import Profil from './pages/MainPages/Profil';
 

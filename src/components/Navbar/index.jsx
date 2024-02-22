@@ -7,9 +7,9 @@ const index = () => {
     setMenuIsOpen(!menuOpen);
   };
   const navItem = [
-    { id: 1, path: '/jenjang', link: 'Jenjang' },
+    { id: 1, path: '/program', link: 'Program Belajar' },
     { id: 2, path: '/testimoni', link: 'Testimoni' },
-    { id: 3, path: '/program', link: 'Program Belajar' },
+    { id: 3, path: '/paket', link: 'Paket Program' },
     { id: 4, path: '/profil', link: 'Tentang Kami' },
     { id: 5, path: '/register', link: 'Daftar' },
   ];
@@ -24,7 +24,7 @@ const index = () => {
               <h1>Lathy Private</h1>
             </NavLink>
             {navItem.map(({ id, path, link }) => {
-              if (id <= 5) {
+              if (id < 5) {
                 return (
                   <li className="text-white text-decoration-none" key={path}>
                     <NavLink className={({ isActive, isPending }) => (isActive ? 'active' : isPending ? 'pending' : '')} to={path}>

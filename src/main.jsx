@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.css';
 axios.defaults.withCredentials = true;
 
-// import Index from './pages/Index';
+import Index from './pages/Index';
 import Home from './pages/MainPages/Home';
 import Profil from './pages/MainPages/Profil';
 import Galery from './pages/MainPages/Galery';
@@ -31,8 +31,8 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       // Main Routes
-      { path: '/', element: <Home /> },
-      // { path: '/home', element: <Home /> },
+      { path: '/', element: <Index /> },
+      { path: '/home', element: <Home /> },
       { path: '/profil', element: <Profil /> },
       { path: '/galery', element: <Galery /> },
       { path: '/daftarGuru', element: <DaftarGuru /> },

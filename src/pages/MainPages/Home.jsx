@@ -30,7 +30,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div className="record flex gap-24 text-white items-center justify-center w-[60%] p-12">
+          {/* <div className="record flex gap-24 text-white items-center justify-center w-[60%] p-12">
             <div className="siswa-record flex flex-column text-center ">
               <h6>Siswa</h6>
               <p></p>
@@ -47,10 +47,10 @@ const Home = () => {
               <h6>Wilayah</h6>
               <p></p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-column flex-wrap justify-center">
-          <div className="flex gap-12 flex-wrap justify-center ">
+          {/* <div className="flex gap-12 flex-wrap justify-center ">
             {dataCategory.map((data) => (
               <React.Fragment key={data.id}>
                 <div className="flex flex-column  p-2 my-2 rounded-b-[90px] cursor-pointer ">
@@ -59,7 +59,7 @@ const Home = () => {
                 </div>
               </React.Fragment>
             ))}
-          </div>
+          </div> */}
           <div className="flex flex-column items-center justify-center relative p-20 ">
             <div className="pb-4 text-white">
               <h4 className="text-bold text-xl">Cerita Sukses Siswa</h4>

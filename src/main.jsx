@@ -10,11 +10,11 @@ axios.defaults.withCredentials = true;
 import Index from './pages/Index';
 import Home from './pages/MainPages/Home';
 import Keunggulan from './pages/MainPages/Keunggulan';
-import Galery from './pages/MainPages/PaketProgram';
+import Paket from './pages/MainPages/PaketProgram';
 import ProgramBelajar from './pages/MainPages/ProgramBelajar';
 import Profil from './pages/MainPages/Profil';
 
-import Login from './pages/MainPages/Login';
+import Swipper from './components/Swipper';
 import Register from './pages/MainPages/Register';
 
 import Sejarah from './components/Modal/ProfilModal/Sejarah';
@@ -33,10 +33,10 @@ const router = createBrowserRouter([
       { path: '/', element: <Index /> },
       { path: '/home', element: <Home /> },
       { path: '/keunggulan', element: <Keunggulan /> },
-      { path: '/galery', element: <Galery /> },
+      { path: '/paket', element: <Paket /> },
       { path: '/program', element: <ProgramBelajar /> },
       { path: '/profil', element: <Profil /> },
-      { path: '/login', element: <Login /> },
+      { path: '/testimoni', element: <Swipper /> },
       { path: '/register', element: <Register /> },
 
       // Routes Component Content

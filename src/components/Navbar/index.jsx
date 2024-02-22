@@ -15,7 +15,7 @@ const index = () => {
   ];
   return (
     <>
-      <nav className="bg-transparent  p-3 fixed top-0 left-0 right-0 shadow-lg">
+      <nav className="bg-transparent  p-3 fixed top-0 left-0 right-0 shadow-lg z-50">
         <div className="px-3 mx-auto flex justify-between items-center">
           {/* Large size */}
           <ul className="lg:flex gap-12 items-center text-lg hidden">

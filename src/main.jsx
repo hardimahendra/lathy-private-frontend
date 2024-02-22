@@ -9,10 +9,10 @@ axios.defaults.withCredentials = true;
 
 import Index from './pages/Index';
 import Home from './pages/MainPages/Home';
-import Profil from './pages/MainPages/Profil';
+import Keunggulan from './pages/MainPages/Keunggulan';
 import Galery from './pages/MainPages/Galery';
-import DaftarGuru from './pages/MainPages/DaftarGuru';
-import Contacts from './pages/MainPages/Contacts';
+import ProgramBelajar from './pages/MainPages/ProgramBelajar';
+import Profil from './pages/MainPages/Profil';
 
 import Login from './pages/MainPages/Login';
 import Register from './pages/MainPages/Register';
@@ -21,7 +21,6 @@ import Sejarah from './components/Modal/ProfilModal/Sejarah';
 import Jenjang from './components/Modal/ProfilModal/Jenjang';
 import Layanan from './components/Modal/ProfilModal/Layanan';
 import Kenyamanan from './components/Modal/ProfilModal/Kenyamanan';
-
 
 import NotFound from './pages/notFoundPages/NotFound';
 
@@ -33,10 +32,10 @@ const router = createBrowserRouter([
       // Main Routes
       { path: '/', element: <Index /> },
       { path: '/home', element: <Home /> },
-      { path: '/profil', element: <Profil /> },
+      { path: '/keunggulan', element: <Keunggulan /> },
       { path: '/galery', element: <Galery /> },
-      { path: '/daftarGuru', element: <DaftarGuru /> },
-      { path: '/contacts', element: <Contacts /> },
+      { path: '/program', element: <ProgramBelajar /> },
+      { path: '/profil', element: <Profil /> },
       { path: '/login', element: <Login /> },
       { path: '/register', element: <Register /> },
 
@@ -46,7 +45,6 @@ const router = createBrowserRouter([
       { path: '/layanan', element: <Layanan /> },
       { path: '/kenyamanan', element: <Kenyamanan /> },
       { path: '/notFound', element: <NotFound /> },
-
     ],
   },
 ]);

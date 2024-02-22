@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper';
 import { swipperData, homeContent, categoryPrivate, penawaranKami } from '../../data/LocalData.json';
 import { FaCircleCheck } from 'react-icons/fa6';
+import ProgramBelajar from './ProgramBelajar';
+import Keunggulan from './Keunggulan';
 
 const Home = () => {
   const dataSwipper = swipperData;
@@ -13,7 +15,9 @@ const Home = () => {
     <>
       <div className="flex flex-column pt-16">
         <div className="flex flex-column items-center justify-center ">
-          <div className="flex items-center justify-center w-[70%] pt-2">
+          <ProgramBelajar />
+          {/* <Keunggulan /> */}
+          {/* <div className="flex items-center justify-center w-[70%] pt-2">
             <div className="flex items-center justify-center flex-wrap gap-12 p-4">
               {dataPelayanan.map((data) => (
                 <React.Fragment key={data.id}>
@@ -29,7 +33,7 @@ const Home = () => {
                 </React.Fragment>
               ))}
             </div>
-          </div>
+          </div> */}
           {/* <div className="record flex gap-24 text-white items-center justify-center w-[60%] p-12">
             <div className="siswa-record flex flex-column text-center ">
               <h6>Siswa</h6>
@@ -60,7 +64,7 @@ const Home = () => {
               </React.Fragment>
             ))}
           </div> */}
-          <div className="flex flex-column items-center justify-center relative p-20 ">
+          {/* <div className="flex flex-column items-center justify-center relative p-20 ">
             <div className="pb-4 text-white">
               <h4 className="text-bold text-xl">Cerita Sukses Siswa</h4>
             </div>
@@ -78,10 +82,10 @@ const Home = () => {
                 ))}
               </div>
             </Swiper>
-          </div>
+          </div> */}
         </div>
         <div className=" flex flex-column justify-center items-center p-4 text-white">
-          <div className="font-bold text-xl">
+          {/* <div className="font-bold text-xl">
             <h1>Les Privat di Lathy Private</h1>
           </div>
           <div className="flex flex-row flex-wrap gap-4 items-center justify-center">
@@ -93,7 +97,7 @@ const Home = () => {
                 </span>
               </React.Fragment>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </>

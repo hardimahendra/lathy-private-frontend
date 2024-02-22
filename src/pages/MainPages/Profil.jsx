@@ -1,69 +1,77 @@
 import React from 'react';
-import { useState } from 'react';
-import { FaGavel, FaSchool, FaFaceGrinStars, FaServicestack, FaHouseUser, FaStar, FaCodePullRequest, FaListCheck, FaClipboardList, FaBusinessTime } from 'react-icons/fa6';
-import Sejarah from '../../components/Modal/ProfilModal/Sejarah';
-import Jenjang from '../../components/Modal/ProfilModal/Jenjang';
-import Layanan from '../../components/Modal/ProfilModal/Layanan';
-import Kenyamanan from '../../components/Modal/ProfilModal/Kenyamanan';
-
+import { Link } from 'react-router-dom';
+import { FaWhatsapp, FaInstagram, FaEnvelopeOpen } from 'react-icons/fa6';
 const Profil = () => {
-  const [sejarah, setSejarah] = useState(false);
-  const [jenjang, setJenjang] = useState(false);
-  const [layanan, setLayanan] = useState(false);
-  const [kenyamanan, setKenyamanan] = useState(false);
-
-  const dataIcon = [
-    { id: 1, icon: <FaHouseUser />, title: 'Guru Ke Rumah', desc: 'KBM Berlangsung Di Rumah Siswa' },
-    { id: 2, icon: <FaStar />, title: 'Pelayanan Spesialis', desc: 'Guru yang mengajar ke rumah siswa sesuai pada bidangnya' },
-    { id: 3, icon: <FaCodePullRequest />, title: 'Request Ganti Guru', desc: 'Jika guru dirasa tidak sesuai (tidak cocok). dapat diganti dan disesuaikan.' },
-    {
-      id: 4,
-      icon: <FaListCheck />,
-      title: 'Evaluasi Belajar',
-      desc: 'Evaluasi yang dilakukan secara berkala dan tiba-tiba (tanpa informasi atau pemberitahuan akan adanya tes). diajukan untuk mengukur perkembangan belajar siswa secara REAL.',
-    },
-    { id: 5, icon: <FaClipboardList />, title: 'Laporan Perkembangan Belajar', desc: 'Melaporkan perkembangan belajar siswa dua (2) bulan sekali ke wali siswa/i, dan jika diizinkan akan diteruskan ke wali kelas selaku sharing' },
-    { id: 6, icon: <FaBusinessTime />, title: 'Kondisional & Fleksibel', desc: 'Waktu dan hari disesuaikan dengan kebutuhan dan kesibukkan siswa/i' },
-  ];
   return (
     <>
-      <div className="flex flex-column justify-center items-center h-full text-white pt-16">
-        <div className="flex flex-row flex-wrap items-center justify-center gap-12">
-          <div className="flex justify-center items-center w-[175px] h-[110px]">
-            <span className="flex justify-center items-center  cursor-pointer rounded-circle m-4 w-[70px] h-[70px] ">
-              <FaGavel className=" w-1/2 h-1/2 object-cover transition-all duration-200 hover:[transform:scale(1.2)]" onClick={() => setSejarah(true)} />
-              <Sejarah show={sejarah} onHide={() => setSejarah(false)} />
-            </span>
+      <div className="flex flex-wrap text-white">
+        <div className="flex flex-column m-auto justify-center p-6">
+          <div className="flex flex-wrap justify-center gap-12 items-center text-center h-[250px] mb-6">
+            <div className="flex flex-column flex-wrap mx-auto justify-start pt-4 items-center h-[150px] ">
+              <h6 className="pb-3 font-bold">Kontak Kami</h6>
+              <p> 0858-9275-9932 (CS) </p>
+              <p> hardimahendra34@gmail.com</p>
+            </div>
+            <div className="flex flex-column flex-wrap mx-auto justify-start pt-4 items-center h-[150px]">
+              <h6 className="pb-3 font-bold">Costumer Service</h6>
+              <p>CS Online Setiap Hari 24 Jam </p>
+              <p>Jam Kantor Hari Senin s/d Sabtu </p>
+              <p>Minggu dan Tanggal Merah Slow Respond</p>
+            </div>
+            <div className="flex flex-column flex-wrap mx-auto justify-start pt-4 items-center h-[150px]">
+              <h6 className="pb-3 font-bold">Social Media</h6>
+              <Link to="https://www.instagram.com/hardimahendra_/" target="_blank">
+                <FaInstagram />
+              </Link>
+              <Link className="py-2" to="https://api.whatsapp.com/send?phone=%2B6285892759932" target="_blank">
+                <FaWhatsapp />
+              </Link>
+              <Link href="https://web.facebook.com/hardimahendra" to="mailto:hardimahendra35@gmail.com" target="_blank">
+                <FaEnvelopeOpen />
+              </Link>
+            </div>
           </div>
-          <div className="flex justify-center items-center w-[175px] h-[110px]">
-            <span className="flex justify-center items-center  cursor-pointer rounded-circle m-4 w-[70px] h-[70px]">
-              <FaSchool className=" w-1/2 h-1/2 object-cover transition-all duration-200 hover:[transform:scale(1.2)]" onClick={() => setJenjang(true)} />
-              <Jenjang show={jenjang} onHide={() => setJenjang(false)} />
-            </span>
-          </div>
-          <div className="flex justify-center items-center w-[175px] h-[110px]">
-            <span className="flex justify-center items-center  cursor-pointer rounded-circle m-4 w-[70px] h-[70px]">
-              <FaServicestack className=" w-1/2 h-1/2 object-cover transition-all duration-200 hover:[transform:scale(1.2)]" onClick={() => setLayanan(true)} />
-              <Layanan show={layanan} onHide={() => setLayanan(false)} />
-            </span>
-          </div>
-          <div className="flex justify-center items-center w-[175px] h-[110px]">
-            <span className="flex justify-center items-center  cursor-pointer rounded-circle m-4 w-[70px] h-[70px]">
-              <FaFaceGrinStars className=" w-1/2 h-1/2 object-cover transition-all duration-200 hover:[transform:scale(1.2)]" onClick={() => setKenyamanan(true)} />
-              <Kenyamanan show={kenyamanan} onHide={() => setKenyamanan(false)} />
-            </span>
+          <div className="flex flex-wrap justify-center items-center">
+            <div className="flex flex-column justify-center items-center text-center">
+              <h4 className="text-lg font-bold">Lebak - Banten</h4>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3962.715997131946!2d105.97092207575324!3d-6.682061665327537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNDAnNTUuNCJTIDEwNcKwNTgnMjQuNiJF!5e0!3m2!1sen!2sid!4v1684398563680!5m2!1sen!2sid"
+                width="400"
+                height="300"
+                style={{ border: '0' }}
+                loading="lazy"
+                className="shadow-lg"
+              ></iframe>
+            </div>
           </div>
         </div>
-        <div className="flex flex-column justify-center items-center pt-4 ">
-          <h1 className="text-2xl pb-2">Layanan & Keunggulan Lathy Private</h1>
-          <div className="flex flex-row flex-wrap justify-center items-center w-[80%] ">
-            {dataIcon.map(({ id, icon, title, desc }) => (
-              <span key={id} className="flex flex-column justify-center items-center text-center m-2 p-1 h-[300px] w-[450px] ">
-                <i className="text-4xl py-2 ">{icon}</i>
-                <h1 className="text-md font-bold">{title}</h1>
-                <p className="text-sm">{desc}</p>
-              </span>
-            ))}
+        <div className="flex flex-column flex-wrap mx-auto justify-center items-center">
+          <h2 className="font-bold">Tinggalkan Pesan</h2>
+          <p className="py-4">Silahkan tinggalkan pesan untuk Lathy Private dan akan segera kami tanggapi</p>
+          <div className="flex justify-center items-center">
+            <form className="w-full h-full">
+              <div className="flex mb-3 gap-12">
+                <div>
+                  <label>Nama Lengkap</label>
+                  <input className="form-control" />
+                </div>
+                <div className="kirim-nomor">
+                  <label>Nomor WhatsApp</label>
+                  <input className="form-control" />
+                </div>
+              </div>
+              <div className="mb-3">
+                <label>Alamat Email</label>
+                <input className="form-control" />
+              </div>
+              <div className="mb-3">
+                <label>Example textarea</label>
+                <textarea className="form-control"></textarea>
+              </div>
+              <button type="submit" className="btn btn-primary">
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </div>

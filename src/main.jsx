@@ -17,11 +17,6 @@ import Profil from './pages/MainPages/Profil';
 import Swipper from './components/Swipper';
 import Register from './pages/MainPages/Register';
 
-import Sejarah from './components/Modal/ProfilModal/Sejarah';
-import Jenjang from './components/Modal/ProfilModal/Jenjang';
-import Layanan from './components/Modal/ProfilModal/Layanan';
-import Kenyamanan from './components/Modal/ProfilModal/Kenyamanan';
-
 import NotFound from './pages/notFoundPages/NotFound';
 
 const router = createBrowserRouter([
@@ -40,10 +35,6 @@ const router = createBrowserRouter([
       { path: '/register', element: <Register /> },
 
       // Routes Component Content
-      { path: '/sejarah', element: <Sejarah /> },
-      { path: '/jenjang', element: <Jenjang /> },
-      { path: '/layanan', element: <Layanan /> },
-      { path: '/kenyamanan', element: <Kenyamanan /> },
       { path: '/notFound', element: <NotFound /> },
     ],
   },

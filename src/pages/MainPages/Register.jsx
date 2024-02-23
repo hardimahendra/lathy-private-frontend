@@ -47,19 +47,19 @@ const Users = () => {
         <form onSubmit={addUser}>
           <div className="flex flex-column gap-3">
             <input className=" w-[300px] h-[40px] rounded-lg text-black px-2" value={username} onChange={(e) => setUsername(e.target.value)} type="text" name="username" placeholder="Nama Lengkap..." required />
-            <select className="text-black">
+            <select className="text-black w-[300px] h-[40px] rounded-lg px-2">
               <option value="Jenjang">Jenjang</option>
               <option value="SD">SD</option>
               <option value="SMP">SMP</option>
               <option value="SMA">SMA</option>
               <option value="Kuliah">Kuliah</option>
             </select>
-            <select className="text-black">
+            <select className="text-black w-[300px] h-[40px] rounded-lg px-2">
               <option value="Paket Umum">Paket Umum</option>
               <option value="Paket Khusus">Paket Khusus</option>
               <option value="Paket Intensif">Paket Intensif</option>
             </select>
-            <select className="text-black">
+            <select className="text-black w-[300px] h-[40px] rounded-lg px-2">
               <option value="Online">Online</option>
               <option value="Tatap Muka">Tatap Muka</option>
             </select>

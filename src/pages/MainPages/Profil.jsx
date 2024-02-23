@@ -49,24 +49,24 @@ const Profil = () => {
           <h2 className="font-bold">Tinggalkan Pesan</h2>
           <p className="py-4">Silahkan tinggalkan pesan untuk Lathy Private dan akan segera kami tanggapi</p>
           <div className="flex justify-center items-center">
-            <form className="w-full h-full">
+            <form className="w-full h-full" method="POST" action="https://script.google.com/macros/s/AKfycbx_ukOBZuenWxOTVv68v6rhKw1F1YFk22lCFJ4er2royu1gjoj-DE40QHY9nUKpt0Vp/exec">
               <div className="flex mb-3 gap-12">
                 <div>
                   <label>Nama Lengkap</label>
-                  <input className="form-control" />
+                  <input name="nama" type="text" className="form-control" />
                 </div>
                 <div className="kirim-nomor">
                   <label>Nomor WhatsApp</label>
-                  <input className="form-control" />
+                  <input name="nomorHP" type="number" className="form-control" />
                 </div>
               </div>
               <div className="mb-3">
                 <label>Alamat Email</label>
-                <input className="form-control" />
+                <input name="email" type="email" className="form-control" />
               </div>
               <div className="mb-3">
                 <label>Example textarea</label>
-                <textarea className="form-control"></textarea>
+                <textarea name="message" type="message" className="form-control"></textarea>
               </div>
               <button type="submit" className="btn btn-primary">
                 Submit

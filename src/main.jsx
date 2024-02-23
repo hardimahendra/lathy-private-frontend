@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.css';
 axios.defaults.withCredentials = true;
 
-import Index from './pages/Index';
 import Home from './pages/MainPages/Home';
 import Keunggulan from './pages/MainPages/Keunggulan';
 import Paket from './pages/MainPages/PaketProgram';
@@ -25,8 +24,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       // Main Routes
-      { path: '/', element: <Index /> },
-      { path: '/home', element: <Home /> },
+      { path: '/', element: <Home /> },
       { path: '/keunggulan', element: <Keunggulan /> },
       { path: '/paket', element: <Paket /> },
       { path: '/program', element: <ProgramBelajar /> },

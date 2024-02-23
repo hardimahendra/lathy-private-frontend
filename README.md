@@ -1,1 +1,0 @@
-# lathy-private-frontend

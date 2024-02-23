@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <>
       <div className="w-auto flex flex-column items-center justify-center text-center pb-2">
-        <section id="home">
+        <section id="home"> 
           <Home />
         </section>
         <section id="profil">

@@ -3,6 +3,7 @@ import ProgramBelajar from './ProgramBelajar';
 import Keunggulan from './Keunggulan';
 import Swipper from '../../components/Swipper';
 import PaketProgram from './PaketProgram';
+import Profil from './Profil';
 
 const Home = () => {
   return (
@@ -17,6 +18,9 @@ const Home = () => {
         </div>
         <div className=" flex justify-center items-center p-4 text-white">
           <PaketProgram />
+        </div>
+        <div>
+          <Profil/>
         </div>
       </div>
     </>

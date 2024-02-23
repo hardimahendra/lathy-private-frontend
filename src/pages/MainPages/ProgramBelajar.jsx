@@ -4,7 +4,7 @@ const ProgramBelajar = () => {
   const [index, setIndex] = useState(0);
   return (
     <>
-      <div className="flex justify-center items-center w-full h-full">
+      <div className="flex justify-center items-center w-full h-full py-4">
         <div className="flex text-white justify-center items-center w-[50%]">
           <div className="flex flex-column items-center justify-center">
             <h1 className="text-lg font-bold">Program Les Private</h1>

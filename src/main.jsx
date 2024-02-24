@@ -14,7 +14,7 @@ import ProgramBelajar from './pages/MainPages/ProgramBelajar';
 import Profil from './pages/MainPages/Profil';
 
 import Swipper from './components/Swipper';
-import Register from './components/Register';
+import Daftar from './components/Daftar';
 
 import NotFound from './pages/notFoundPages/NotFound';
 
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       { path: '/program', element: <ProgramBelajar /> },
       { path: '/profil', element: <Profil /> },
       { path: '/alumni', element: <Swipper /> },
-      { path: '/register', element: <Register /> },
+      { path: '/daftar', element: <Daftar /> },
 
       // Routes Component Content
       { path: '/notFound', element: <NotFound /> },

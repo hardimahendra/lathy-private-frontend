@@ -23,15 +23,13 @@ const index = () => {
               <h1>Lathy Private</h1>
             </NavLink>
             {navItem.map(({ id, path, link }) => {
-              if (id < 5) {
-                return (
-                  <li className="text-white text-decoration-none" key={path}>
-                    <NavLink className={({ isActive, isPending }) => `hover:text-orange-500 ${isActive ? 'active' : isPending ? 'pending' : ''}`} to={path}>
-                      {link}
-                    </NavLink>
-                  </li>
-                );
-              }
+              return (
+                <li className="text-white text-decoration-none" key={path}>
+                  <NavLink className={({ isActive, isPending }) => `hover:text-orange-500 ${isActive ? 'active' : isPending ? 'pending' : ''}`} to={path}>
+                    {link}
+                  </NavLink>
+                </li>
+              );
             })}
           </ul>
           {/* medium size*/}
@@ -56,6 +54,9 @@ const index = () => {
             <Link to="https://api.whatsapp.com/send?phone=%2B6285892759932" className="hover:text-green-500" target="_blank">
               <FaWhatsapp />
             </Link>
+            <NavLink to="/daftar" className="sm:flex px-6 py-2 font-medium rounded hover:bg-orange-500 hover:text-blue-300 transition-all duration-200 hidden">
+              Daftar
+            </NavLink>
           </div>
         </div>
       </nav>

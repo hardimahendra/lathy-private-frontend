@@ -1,5 +1,5 @@
 import React from 'react';
-import Register from './Register';
+import Daftar from './Daftar';
 import { penawaranKami } from '../data/LocalData.json';
 const Header = () => {
   return (
@@ -14,8 +14,8 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div className="">
-          <Register />
+        <div className="lg:flex hidden">
+          <Daftar />
         </div>
       </div>
     </>

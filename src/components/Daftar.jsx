@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import { FaArrowLeft } from 'react-icons/fa6';
 import { toast, Toaster } from 'react-hot-toast';
-const Users = () => {
+const Daftar = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -61,7 +61,7 @@ const Users = () => {
           </div>
           <div className="flex justify-center items-center pt-5 ">
             <button type="submit" className="rounded-lg p-2  w-1/2 border-none  hover:bg-orange-500 hover:text-blue-300 transition-all duration-200 ">
-              Submit
+              Daftar
             </button>
           </div>
         </form>
@@ -69,4 +69,4 @@ const Users = () => {
     </div>
   );
 };
-export default Users;
+export default Daftar;

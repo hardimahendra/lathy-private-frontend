@@ -11,7 +11,6 @@ const index = () => {
     { id: 2, path: '/alumni', link: 'Alumni' },
     { id: 3, path: '/paket', link: 'Paket Program' },
     { id: 4, path: '/profil', link: 'Tentang Kami' },
-    { id: 5, path: '/register', link: 'Daftar' },
   ];
   return (
     <>

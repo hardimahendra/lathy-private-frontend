@@ -14,7 +14,7 @@ import ProgramBelajar from './pages/MainPages/ProgramBelajar';
 import Profil from './pages/MainPages/Profil';
 
 import Swipper from './components/Swipper';
-import Register from './pages/MainPages/Register';
+import Register from './components/Register';
 
 import NotFound from './pages/notFoundPages/NotFound';
 

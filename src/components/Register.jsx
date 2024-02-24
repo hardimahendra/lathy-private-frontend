@@ -37,11 +37,6 @@ const Users = () => {
   return (
     <div className="flex justify-center items-center h-[100vh] w-full my-5xl text-white">
       <div className="relative flex flex-column justify-center items-center text-center h-[500px] w-[500px] shadow-lg rounded-lg">
-        <div className="absolute flex justify-center items-center top-2 left-3 h-[50px] w[50px]">
-          <Link className="flex justify-center items-center rounded-circle p-3  h-full w-full border-none  hover:bg-orange-500 hover:text-blue-300 transition-all duration-200 " to="/">
-            <FaArrowLeft />
-          </Link>
-        </div>
         <h4 className="text-lg font-bold py-4">Daftar Menjadi Pelajar</h4>
         <Toaster position="top-center" />
         <form onSubmit={addUser}>

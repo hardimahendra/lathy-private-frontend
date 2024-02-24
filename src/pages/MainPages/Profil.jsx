@@ -2,6 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaInstagram, FaEnvelopeOpen } from 'react-icons/fa6';
 const Profil = () => {
+  const sendMessage = () => {
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyN9gkcMPnM9b5armYth68F4TZ0mduOAEtbrxiPc4RKjEgjJra6C78mIlOkGYIw810/exec';
+    const form = document.forms['contact-form'];
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST,', body: new FormData(form) })
+        .then((response) => console.log('success', response))
+        .catch((error) => console.error('error', error.message));
+    });
+  }
   return (
     <>
       <div className="flex flex-wrap text-white">
@@ -49,7 +60,7 @@ const Profil = () => {
           <h2 className="font-bold">Tinggalkan Pesan</h2>
           <p className="py-4">Silahkan tinggalkan pesan untuk Lathy Private dan akan segera kami tanggapi</p>
           <div className="flex justify-center items-center">
-            <form className="w-full h-full" method="POST" action="https://script.google.com/macros/s/AKfycbx_ukOBZuenWxOTVv68v6rhKw1F1YFk22lCFJ4er2royu1gjoj-DE40QHY9nUKpt0Vp/exec">
+            <form name="contact-form" className="w-full h-full" method="post" onSubmit={sendMessage}>
               <div className="flex mb-3 gap-12">
                 <div>
                   <label>Nama Lengkap</label>

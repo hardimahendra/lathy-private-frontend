@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       { path: '/paket', element: <Paket /> },
       { path: '/program', element: <ProgramBelajar /> },
       { path: '/profil', element: <Profil /> },
-      { path: '/testimoni', element: <Swipper /> },
+      { path: '/alumni', element: <Swipper /> },
       { path: '/register', element: <Register /> },
 
       // Routes Component Content

@@ -8,7 +8,7 @@ const index = () => {
   };
   const navItem = [
     { id: 1, path: '/program', link: 'Program Belajar' },
-    { id: 2, path: '/testimoni', link: 'Testimoni' },
+    { id: 2, path: '/alumni', link: 'Alumni' },
     { id: 3, path: '/paket', link: 'Paket Program' },
     { id: 4, path: '/profil', link: 'Tentang Kami' },
     { id: 5, path: '/register', link: 'Daftar' },
@@ -27,7 +27,7 @@ const index = () => {
               if (id < 5) {
                 return (
                   <li className="text-white text-decoration-none" key={path}>
-                    <NavLink className={({ isActive, isPending }) => (isActive ? 'active' : isPending ? 'pending' : '')} to={path}>
+                    <NavLink className={({ isActive, isPending }) => `hover:text-orange-500 ${isActive ? 'active' : isPending ? 'pending' : ''}`} to={path}>
                       {link}
                     </NavLink>
                   </li>

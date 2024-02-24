@@ -35,7 +35,7 @@ const Users = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-[100vh] w-full my-5xl text-white">
+    <div className="flex justify-center items-center w-full text-white">
       <div className="relative flex flex-column justify-center items-center text-center h-[500px] w-[500px] shadow-lg rounded-lg">
         <h4 className="text-lg font-bold py-4">Daftar Menjadi Pelajar</h4>
         <Toaster position="top-center" />

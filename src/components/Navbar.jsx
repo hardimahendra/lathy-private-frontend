@@ -19,7 +19,7 @@ const index = () => {
         <div className="px-3 mx-auto flex justify-between items-center">
           {/* Large size */}
           <ul className="lg:flex gap-12 items-center text-lg hidden">
-            <NavLink className="flex justify-center items-center gap-2 text-yellow-500 font-semibold" to="/">
+            <NavLink className="flex justify-center items-center gap-2 text-orange-500 font-semibold" to="/">
               <img className="w-10" src="./icons/maskot.png" alt="brand" />
               <h1>Lathy Private</h1>
             </NavLink>

@@ -30,7 +30,7 @@ const index = () => {
               </li>
             ))}
           </ul>
-          {/* medium size*/}
+          {/* medium & small size*/}
           <div className="flex w-auto gap-4 lg:hidden">
             <NavLink to="/">
               <img className="w-10" src="./icons/maskot.png" alt="brand" />

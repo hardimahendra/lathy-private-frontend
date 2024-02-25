@@ -8,7 +8,7 @@ const ProgramBelajar = () => {
         <div className="flex text-white justify-center items-center w-[50%]">
           <div className="flex flex-column items-center justify-center">
             <h1 className="text-lg font-bold">Program Les Private</h1>
-            <div className="flex flex-row flex-wrap justify-between items-center gap-1 w-full  my-4 p-2">
+            <div className="flex flex-row flex-wrap  md:justify-between justify-around items-center gap-2 w-full  my-4 p-2">
               <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 transition-all duration-100 w-[150px] h-[40px]" onClick={() => setIndex(0)}>
                 SD
               </button>
@@ -20,6 +20,9 @@ const ProgramBelajar = () => {
               </button>
               <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 transition-all duration-100 w-[150px] h-[40px] " onClick={() => setIndex(3)}>
                 Kuliah
+              </button>
+              <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 transition-all duration-100 w-[150px] h-[40px] " onClick={() => setIndex(3)}>
+                Kursus Khusus
               </button>
             </div>
             <div className="flex flex-column text-left pt-2 gap-2" hidden={index != 0}>

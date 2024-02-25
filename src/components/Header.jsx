@@ -3,8 +3,8 @@ import Daftar from './Daftar';
 const Header = () => {
   return (
     <>
-      <div className="flex justify-around items-center w-full h-[80vh]  bg-cover bg-center">
-        <div className="relative flex flex-column justify-center items-left w-[50%] h-full">
+      <div className="flex lg:justify-around justify-center items-center w-full h-[80vh]  bg-cover bg-center">
+        <div className="relative flex flex-column justify-center items-left lg:w-[50%] w-[80%] h-full">
           <h1 className="text-4xl text-orange-500 font-serif indent-12">Anak Jadi lebih rajin dan produktif dengan bimbingan belajar bersama kami di Lathy Private!</h1>
           <p className="text-xl text-gray-400 font-serif">Les Private dengan metode belajar interaktif, tutor Profesional dan investasi belajar yang murah dan terpercaya.</p>
           <div className="text-white">

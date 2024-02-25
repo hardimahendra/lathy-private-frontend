@@ -1,6 +1,5 @@
 import React from 'react';
 import Daftar from './Daftar';
-import { penawaranKami } from '../data/LocalData.json';
 const Header = () => {
   return (
     <>

@@ -14,7 +14,7 @@ const index = () => {
   ];
   return (
     <>
-      <nav className="bg-transparent  p-3 fixed top-0 left-0 right-0 shadow-lg z-50">
+      <nav className="bg-transparent p-3 fixed top-0 left-0 right-0 shadow-lg z-50">
         <div className="px-3 mx-auto flex justify-between items-center">
           {/* Large size */}
           <ul className="lg:flex gap-12 items-center text-lg hidden">
@@ -40,10 +40,10 @@ const index = () => {
             </button>
           </div>
           <div>
-            <ul className={`lg:hidden h-full p-4 text-lg mt-16  ${menuOpen ? 'fixed top-0 left-0 w-auto transition-all ease-out duration-150 shadow-lg' : 'hidden'}`}>
-              {navItem.map(({path, link }) => (
+            <ul className={`lg:hidden h-full p-4 mt-[72px] sm:bg-[#00546b]  sm:bg-opacity-50 ${menuOpen ? 'fixed top-0 left-0 w-auto transition-all ease-out duration-150 shadow-lg' : 'hidden'}`}>
+              {navItem.map(({ path, link }) => (
                 <li className="text-white py-4 " key={path}>
-                  <NavLink className="transition-all duration-75 hover:border-b-2 hover:border-orange-500 hover:text-orange-500" to={path}>
+                  <NavLink className="text-sm transition-all duration-75 hover:border-b-2 hover:border-orange-500 hover:text-orange-500" to={path}>
                     {link}
                   </NavLink>
                 </li>

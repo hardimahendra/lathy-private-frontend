@@ -24,7 +24,7 @@ const index = () => {
             </NavLink>
             {navItem.map(({ path, link }) => (
               <li className="text-white text-decoration-none" key={path}>
-                <NavLink className={({ isActive, isPending }) => `hover:text-orange-500 ${isActive ? 'active' : isPending ? 'pending' : ''}`} to={path}>
+                <NavLink className={({ isActive, isPending }) => `tranition-all duration-75 hover:text-orange-500 hover:border-t-2 hover:border-orange-500 ${isActive ? 'active' : isPending ? 'pending' : ''}`} to={path}>
                   {link}
                 </NavLink>
               </li>
@@ -43,7 +43,9 @@ const index = () => {
             <ul className={`lg:hidden h-full p-4 text-lg mt-16  ${menuOpen ? 'fixed top-0 left-0 w-auto transition-all ease-out duration-150 shadow-lg' : 'hidden'}`}>
               {navItem.map(({ id, path, link }) => (
                 <li className="text-white py-4 " key={path}>
-                  <NavLink to={path}>{link}</NavLink>
+                  <NavLink className="transition-all duration-75 hover:border-b-2 hover:border-orange-500 hover:text-orange-500" to={path}>
+                    {link}
+                  </NavLink>
                 </li>
               ))}
             </ul>

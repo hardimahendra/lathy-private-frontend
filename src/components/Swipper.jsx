@@ -3,12 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper';
 import { swipperData } from '../data/LocalData.json';
 import { FaEye, FaEyeSlash } from 'react-icons/fa6';
-import { Icon } from 'react-icons';
 
 const Swipper = () => {
   const dataSwipper = swipperData;
   const [index, setIndex] = useState(0);
-  let isId = '';
   const getId = dataSwipper.find((i) => i.id === id);
 
   return (
@@ -31,7 +29,7 @@ const Swipper = () => {
                     <p className="font-normal text-center">{data.information}</p>
                     <button>
                       <FaEye />
-                      <Icon icon={data.icon}></Icon>
+                      <FaEyeSlash />
                     </button>
                   </SwiperSlide>
                 ))}

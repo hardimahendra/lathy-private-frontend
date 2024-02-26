@@ -11,20 +11,6 @@ const Swipper = () => {
   let isId = '';
   const getId = dataSwipper.find((i) => i.id === id);
 
-  const test = () => {
-    for (isId of getId) {
-      return isId;
-    }
-  };
-  const getIndexById = (e) => {
-    e.preventDefault();
-    if (test === getId) {
-      setIndex(isId);
-      console.log('data');
-    } else {
-      console.log('error');
-    }
-  };
   return (
     <>
       <div className="flex flex-column items-center justify-center relative p-20 ">

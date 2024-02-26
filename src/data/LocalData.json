@@ -42,6 +42,8 @@
     {
       "id": 1,
       "name": "Peters Bethan",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/1.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
@@ -50,6 +52,8 @@
     {
       "id": 2,
       "name": "Leslie Morse",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/2.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
@@ -58,6 +62,8 @@
     {
       "id": 3,
       "name": "Edmund Miller",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/3.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
@@ -66,6 +72,8 @@
     {
       "id": 4,
       "name": "Eric Oconnor",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/4.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
@@ -74,6 +82,8 @@
     {
       "id": 5,
       "name": "Addie Peters",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/5.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
@@ -82,6 +92,8 @@
     {
       "id": 6,
       "name": "Zarah Hunter",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/6.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
@@ -90,6 +102,8 @@
     {
       "id": 7,
       "name": "Casper Barlow",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/7.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
@@ -98,6 +112,8 @@
     {
       "id": 8,
       "name": "Jemima Mosley",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/8.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
@@ -106,6 +122,8 @@
     {
       "id": 9,
       "name": "Marcel Dennis",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/9.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
@@ -114,6 +132,8 @@
     {
       "id": 10,
       "name": "Carla Harding",
+      "icon": "<FaEyeSlash/>",
+
       "judul": "Pelajaran Matematika",
       "image": "./img/users/10.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",

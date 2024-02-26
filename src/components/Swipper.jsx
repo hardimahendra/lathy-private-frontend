@@ -3,20 +3,27 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper';
 import { swipperData } from '../data/LocalData.json';
 import { FaEye, FaEyeSlash } from 'react-icons/fa6';
+import { Icon } from 'react-icons';
 
 const Swipper = () => {
   const dataSwipper = swipperData;
   const [index, setIndex] = useState(0);
   let isId = '';
-  const getId = dataSwipper.map((data) => data.id);
-  const test = (isId) => {
+  const getId = dataSwipper.find((i) => i.id === id);
+
+  const test = () => {
     for (isId of getId) {
-      console.log(isId);
+      return isId;
     }
   };
   const getIndexById = (e) => {
     e.preventDefault();
-    setIndex(test);
+    if (test === getId) {
+      setIndex(isId);
+      console.log('data');
+    } else {
+      console.log('error');
+    }
   };
   return (
     <>
@@ -37,8 +44,8 @@ const Swipper = () => {
                     <h1 className="text-sm pb-2">{data.name}</h1>
                     <p className="font-normal text-center">{data.information}</p>
                     <button>
-                      <FaEye onClick={test} />
-                      <FaEyeSlash onClick={getIndexById} />
+                      <FaEye />
+                      <Icon icon={data.icon}></Icon>
                     </button>
                   </SwiperSlide>
                 ))}

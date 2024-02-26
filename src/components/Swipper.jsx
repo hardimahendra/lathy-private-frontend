@@ -3,12 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper';
 import { swipperData } from '../data/LocalData.json';
 import { FaEye, FaEyeSlash } from 'react-icons/fa6';
+import SwipperContent from './SwipperContent';
 
-const Swipper = ({ id }) => {
+const Swipper = () => {
   const dataSwipper = swipperData;
   const [index, setIndex] = useState(0);
-  const getId = dataSwipper.find((i) => i.id === id);
-  if (getId == null) return null;
   return (
     <>
       <div className="flex flex-column items-center justify-center relative p-20 ">
@@ -36,14 +35,7 @@ const Swipper = ({ id }) => {
               </div>
             </Swiper>
           </div>
-          <div className="bg-green-500 lg:w-[50%] p-4">
-            {dataSwipper.map((data) => (
-              <div key={data.id} hidden={index != data.id}>
-                <h1>{data.name}</h1>
-                <p>{data.desc}</p>
-              </div>
-            ))}
-          </div>
+          <SwipperContent {...item} />
         </div>
       </div>
     </>

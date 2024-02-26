@@ -7,10 +7,17 @@ import { FaEye, FaEyeSlash } from 'react-icons/fa6';
 const Swipper = () => {
   const dataSwipper = swipperData;
   const [index, setIndex] = useState(0);
-
-  const getIndexById = () => {
-    const getId = dataSwipper.find((data) => {data.id})
-  }
+  let isId = '';
+  const getId = dataSwipper.map((data) => data.id);
+  const test = (isId) => {
+    for (isId of getId) {
+      console.log(isId);
+    }
+  };
+  const getIndexById = (e) => {
+    e.preventDefault();
+    setIndex(test);
+  };
   return (
     <>
       <div className="flex flex-column items-center justify-center relative p-20 ">
@@ -30,8 +37,8 @@ const Swipper = () => {
                     <h1 className="text-sm pb-2">{data.name}</h1>
                     <p className="font-normal text-center">{data.information}</p>
                     <button>
-                      <FaEye />
-                      <FaEyeSlash />
+                      <FaEye onClick={test} />
+                      <FaEyeSlash onClick={getIndexById} />
                     </button>
                   </SwiperSlide>
                 ))}
@@ -40,7 +47,7 @@ const Swipper = () => {
           </div>
           <div className="bg-green-500 lg:w-[50%] p-4">
             {dataSwipper.map((data) => (
-              <div key={data.id} hidden={index != 0}>
+              <div key={data.id} hidden={index != data.id}>
                 <h1>{data.name}</h1>
                 <p>{data.desc}</p>
               </div>

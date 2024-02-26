@@ -21,7 +21,8 @@ const ProgramBelajar = () => {
               <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] " onClick={() => setIndex(3)}>
                 Kuliah
               </button>
-              <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] " onClick={() => setIndex(4)}>
+              <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] " 
+              onClick={() => setIndex(4)}>
                 Kursus Khusus
               </button>
             </div>

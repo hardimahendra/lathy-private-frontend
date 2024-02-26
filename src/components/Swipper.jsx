@@ -4,11 +4,11 @@ import { EffectCards } from 'swiper';
 import { swipperData } from '../data/LocalData.json';
 import { FaEye, FaEyeSlash } from 'react-icons/fa6';
 
-const Swipper = () => {
+const Swipper = ({ id }) => {
   const dataSwipper = swipperData;
   const [index, setIndex] = useState(0);
   const getId = dataSwipper.find((i) => i.id === id);
-
+  if (getId == null) return null;
   return (
     <>
       <div className="flex flex-column items-center justify-center relative p-20 ">

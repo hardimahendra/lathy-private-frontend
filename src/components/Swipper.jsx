@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper';
 import { swipperData } from '../data/LocalData.json';
 import { FaEye, FaEyeSlash } from 'react-icons/fa6';
-import SwipperContent from './SwipperContent';
 
 const Swipper = () => {
   const dataSwipper = swipperData;
@@ -35,7 +34,14 @@ const Swipper = () => {
               </div>
             </Swiper>
           </div>
-          <SwipperContent {...item} />
+          <div className="bg-green-500 lg:w-[50%] p-4">
+            {dataSwipper.map((item) => (
+              <div key={item.id} hidden={index != item.id}>
+                <h1>{item.name}</h1>
+                <p>{item.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

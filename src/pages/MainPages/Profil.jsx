@@ -2,17 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaInstagram, FaEnvelopeOpen } from 'react-icons/fa6';
 const Profil = () => {
-  const sendMessage = () => {
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyN9gkcMPnM9b5armYth68F4TZ0mduOAEtbrxiPc4RKjEgjJra6C78mIlOkGYIw810/exec';
-    const form = document.forms['contact-form'];
-
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      fetch(scriptURL, { method: 'POST,', body: new FormData(form) })
-        .then((response) => console.log('success', response))
-        .catch((error) => console.error('error', error.message));
-    });
-  }
   return (
     <>
       <div className="flex flex-column p-4 text-white gap-4 ">

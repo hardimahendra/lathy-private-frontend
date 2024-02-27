@@ -15,7 +15,7 @@ const Profil = () => {
   }
   return (
     <>
-      <div className="flex flex-column p-4 text-white  gap-4 ">
+      <div className="flex flex-column p-4 text-white gap-4 ">
         <h1 className="text-center">Tentang Kami</h1>
         <div className="flex flex-wrap justify-around gap-4">
           <div className="flex flex-column justify-center items-center px-5 py-3">
@@ -56,26 +56,20 @@ const Profil = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-column justify-center px-5 py-4 items-center shadow-lg bg-transparent">
+          <div className="flex flex-column justify-center px-5 gap-2 items-center shadow-lg bg-transparent">
             <h2 className="font-bold">Tinggalkan Pesan</h2>
             <p className="py-4">Silahkan tinggalkan pesan untuk Lathy Private dan akan segera kami tanggapi</p>
             <div className="flex justify-center items-center ">
-              <form name="contact-form" className="flex flex-column w-full h-full gap-4" method="post" onSubmit={sendMessage}>
-                <div className="flex mb-3 gap-12">
-                  <div>
-                    <input name="nama" type="text" className="form-control h-[40px]   " placeholder="Nama Lengkap" />
-                  </div>
-                  <div className="kirim-nomor">
-                    <input name="nomorHP" type="number" className="form-control h-[40px] " placeholder="Nomor Hp" />
-                  </div>
+              <form name="contact-form" className="flex flex-column w-full h-full gap-5" method="post" onSubmit={sendMessage}>
+                <div className="flex gap-12">
+                  <input name="nama" type="text" className="form-control h-[40px]   " placeholder="Nama Lengkap" />
+                  <input name="nomorHP" type="number" className="form-control h-[40px] " placeholder="Nomor Hp" />
                 </div>
-                <div className="mb-3">
+                <div className="flex flex-column gap-5">
                   <input name="email" type="email" className="form-control h-[40px] " placeholder="Example : Youremail@gmail.com" />
+                  <textarea name="message" type="message" className="form-control h-[100px] " placeholder="Your Message" />
                 </div>
-                <div className="mb-3">
-                  <textarea name="message" type="message" className="form-control h-[100px] " placeholder="Your Message"></textarea>
-                </div>
-                <div className="flex justify-center items-center pt-3 ">
+                <div className="flex justify-center items-center">
                   <button type="submit" className="rounded-lg p-2 h-[50px] w-1/2 border-none  hover:bg-orange-500 hover:text-white transition-all duration-200">
                     Submit
                   </button>

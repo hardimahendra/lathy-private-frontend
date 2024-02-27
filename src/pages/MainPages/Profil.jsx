@@ -49,7 +49,7 @@ const Profil = () => {
             <h2 className="font-bold">Tinggalkan Pesan</h2>
             <p className="py-4">Silahkan tinggalkan pesan untuk Lathy Private dan akan segera kami tanggapi</p>
             <div className="flex justify-center items-center ">
-              <form name="contact-form" className="flex flex-column w-full h-full gap-5" method="post" onSubmit={sendMessage}>
+              <form name="contact-form" className="flex flex-column w-full h-full gap-5" method="post" >
                 <div className="flex gap-12">
                   <input name="nama" type="text" className="form-control h-[40px]   " placeholder="Nama Lengkap" />
                   <input name="nomorHP" type="number" className="form-control h-[40px] " placeholder="Nomor Hp" />

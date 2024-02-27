@@ -63,21 +63,17 @@ const Profil = () => {
               <form name="contact-form" className="flex flex-column w-full h-full gap-4" method="post" onSubmit={sendMessage}>
                 <div className="flex mb-3 gap-12">
                   <div>
-                    <label>Nama Lengkap</label>
-                    <input name="nama" type="text" className="form-control" />
+                    <input name="nama" type="text" className="form-control h-[40px]   " placeholder="Nama Lengkap" />
                   </div>
                   <div className="kirim-nomor">
-                    <label>Nomor WhatsApp</label>
-                    <input name="nomorHP" type="number" className="form-control" />
+                    <input name="nomorHP" type="number" className="form-control h-[40px] " placeholder="Nomor Hp" />
                   </div>
                 </div>
                 <div className="mb-3">
-                  <label>Alamat Email</label>
-                  <input name="email" type="email" className="form-control" />
+                  <input name="email" type="email" className="form-control h-[40px] " placeholder="Example : Youremail@gmail.com" />
                 </div>
                 <div className="mb-3">
-                  <label>Example textarea</label>
-                  <textarea name="message" type="message" className="form-control"></textarea>
+                  <textarea name="message" type="message" className="form-control h-[100px] " placeholder="Your Message"></textarea>
                 </div>
                 <div className="flex justify-center items-center pt-3 ">
                   <button type="submit" className="rounded-lg p-2 h-[50px] w-1/2 border-none  hover:bg-orange-500 hover:text-white transition-all duration-200">

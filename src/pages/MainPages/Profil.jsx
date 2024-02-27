@@ -70,7 +70,7 @@ const Profil = () => {
                   <textarea name="message" type="message" className="form-control h-[100px] " placeholder="Your Message" />
                 </div>
                 <div className="flex justify-center items-center">
-                  <button type="submit" className="rounded-lg p-2 h-[50px] w-1/2 border-none  hover:bg-orange-500 hover:text-white transition-all duration-200">
+                  <button type="submit" className="rounded-lg p-2 h-[50px] w-1/2 border-none  hover:bg-orange-500 transition-all duration-200">
                     Submit
                   </button>
                 </div>

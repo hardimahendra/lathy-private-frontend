@@ -26,7 +26,7 @@ const ProgramBelajar = () => {
                 Kursus Khusus
               </button>
             </div>
-            <div className="flex flex-column text-left pt-2 gap-2" hidden={index != 0}>
+            <div className="flex flex-column text-justify pt-2 gap-2" hidden={index != 0}>
               <h1 className="font-semibold pb-2">Jenjang Sekolah Dasar</h1>
               <p>
                 Buat adek-adek yang lagi ngejar pelajaran SD, pasti ngerasain kan betapa kompleks dan susahnya pelajarannya sekarang? Gak bisa dipungkiri, pelajaran SD juga makin tricky, apalagi dengan kurikulum terbaru yang kadang bikin
@@ -53,7 +53,7 @@ const ProgramBelajar = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-column text-left pt-2 gap-2" hidden={index != 1}>
+            <div className="flex flex-column text-justify pt-2 gap-2" hidden={index != 1}>
               <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Pertama</h1>
               <p>
                 Buat Kamu yang lagi ngarungi lautan pelajaran SMP, pasti tahu betapa susahnya mengejar kurikulum terbaru yang makin kompleks, kan? Nah, kita nggak bisa ngehindar dari kesulitan belajar ini. Mulai dari matematika yang bikin
@@ -80,7 +80,7 @@ const ProgramBelajar = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-column text-left pt-2 gap-2" hidden={index != 2}>
+            <div className="flex flex-column text-justify pt-2 gap-2" hidden={index != 2}>
               <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Atas</h1>
               <p>
                 dengan tujuan membantu siswa SMA meraih prestasi akademik yang gemilang serta sukses dalam menghadapi ujian penting seperti UTBK SNBT. Kami menyadari betapa pentingnya persiapan yang matang untuk memasuki perguruan tinggi
@@ -110,7 +110,7 @@ const ProgramBelajar = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-column text-left pt-2 gap-2 " hidden={index != 3}>
+            <div className="flex flex-column text-justify pt-2 gap-2 " hidden={index != 3}>
               <h1 className="font-semibold pb-2">Jenjang Diploma/Sarjana</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, quasi nam laborum ipsa quae incidunt blanditiis facere consequuntur veritatis, mollitia perspiciatis asperiores omnis architecto nulla, voluptatibus
@@ -136,7 +136,7 @@ const ProgramBelajar = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-column text-left pt-2 gap-2 " hidden={index != 4}>
+            <div className="flex flex-column text-justify pt-2 gap-2 " hidden={index != 4}>
               <h1 className="font-semibold pb-2">Kursus Khusus</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, quasi nam laborum ipsa quae incidunt blanditiis facere consequuntur veritatis, mollitia perspiciatis asperiores omnis architecto nulla, voluptatibus

@@ -13,14 +13,14 @@ const Home = () => {
           <ProgramBelajar />
           <Keunggulan />
         </div>
-        <div className="flex flex-column flex-wrap justify-center bg-yellow-500">
+        <div className="flex flex-column flex-wrap justify-center ">
           <Swipper />
         </div>
         <div className=" flex justify-center items-center p-4 text-white">
           <PaketProgram />
         </div>
         <div>
-          <Profil/>
+          <Profil />
         </div>
       </div>
     </>

@@ -13,12 +13,6 @@
   .swiper-slide h6 {
     font-size: 20px;
   }
-  .swiper-slide img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
   .swiper-slide p {
     font-size: 12px;
   }

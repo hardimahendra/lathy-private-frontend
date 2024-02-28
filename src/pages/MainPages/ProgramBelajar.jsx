@@ -1,7 +1,8 @@
 import { useState } from 'react';
-
+import {programBelajar} from '../../data/LocalData.json'
 const ProgramBelajar = () => {
-  const [index, setIndex] = useState(0);
+  const dataProgoram = programBelajar;
+  const [index, setIndex] = useState(1);
   return (
     <>
       <div className="flex justify-center items-center w-full h-full py-4">
@@ -26,17 +27,16 @@ const ProgramBelajar = () => {
                 Kursus Khusus
               </button>
             </div>
-            <div className="flex flex-column text-justify pt-2 gap-2" hidden={index != 0}>
-              <h1 className="font-semibold pb-2">Jenjang Sekolah Dasar</h1>
+            {dataProgoram.map(({id, jenjang, desc1, desc2, pelajaran}) => {
+
+            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != id}>
+              <h1 className="font-semibold pb-2">{jenjang}</h1>
               <p>
-                Buat adek-adek yang lagi ngejar pelajaran SD, pasti ngerasain kan betapa kompleks dan susahnya pelajarannya sekarang? Gak bisa dipungkiri, pelajaran SD juga makin tricky, apalagi dengan kurikulum terbaru yang kadang bikin
-                pusing. Ada matematika yang mungkin bikin kalian mikir keras, bahasa Indonesia yang minta fokus, dan masih banyak lagi. Buat adek-adek yang merasa kesulitan di kelas, kita paham kok, dan gak usah khawatir, ada cara buat
-                ngatasin kesulitan belajar ini.
+{desc1}
               </p>
               <p>
-                Buat yang lagi ngerasa kesulitan belajar komunal di kelas, coba deh manfaatin layanan guru privat di LapakGuruPrivat.com. Gak perlu khawatir lagi nyari guru privat yang pas buat adek-adek. Di sini, bisa pilih sendiri guru
-                privat untuk pelajaran SD yang sesuai sama kebutuhan. Enaknya lagi, bisa belajar online atau offline, dan adek-adek juga bisa pilih sendiri waktu yang nyaman. Jadi, gak perlu lagi deh mikirin kesulitan belajar di kelas,
-                karena LapakGuruPrivat.com siap bantu adek-adek buat ngejar pelajaran SD dengan lebih enjoy!
+{desc2}
+
               </p>
               <div className="flex flex-row pl-4  gap-5">
                 <ul className="list-disc">
@@ -53,7 +53,8 @@ const ProgramBelajar = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-column text-justify pt-2 gap-2" hidden={index != 1}>
+            })}
+            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != 1}>
               <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Pertama</h1>
               <p>
                 Buat Kamu yang lagi ngarungi lautan pelajaran SMP, pasti tahu betapa susahnya mengejar kurikulum terbaru yang makin kompleks, kan? Nah, kita nggak bisa ngehindar dari kesulitan belajar ini. Mulai dari matematika yang bikin
@@ -80,7 +81,7 @@ const ProgramBelajar = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-column text-justify pt-2 gap-2" hidden={index != 2}>
+            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != 2}>
               <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Atas</h1>
               <p>
                 dengan tujuan membantu siswa SMA meraih prestasi akademik yang gemilang serta sukses dalam menghadapi ujian penting seperti UTBK SNBT. Kami menyadari betapa pentingnya persiapan yang matang untuk memasuki perguruan tinggi
@@ -110,15 +111,15 @@ const ProgramBelajar = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-column text-justify pt-2 gap-2 " hidden={index != 3}>
+            <div className="flex flex-column text-justif pt-2 gap-2 " hidden={index != 3}>
               <h1 className="font-semibold pb-2">Jenjang Diploma/Sarjana</h1>
-              <p>
+              <p className="indent-10">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, quasi nam laborum ipsa quae incidunt blanditiis facere consequuntur veritatis, mollitia perspiciatis asperiores omnis architecto nulla, voluptatibus
                 aperiam quod eligendi earum aspernatur! Placeat, voluptas distinctio voluptatem commodi quas porro rem ullam soluta. Illo tempora saepe deserunt laudantium dignissimos sit repellendus, facere eius unde eveniet tenetur
                 consectetur beatae, eligendi porro quod repellat blanditiis nemo ipsa voluptatum assumenda totam ducimus quidem quia. Illum, placeat animi dolore cumque perferendis labore, nihil reprehenderit vel unde, omnis assumenda. Eius
                 est excepturi, cumque neque temporibus reiciendis distinctio at magnam unde ut vitae consequuntur inventore totam fugiat!
               </p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa? Ullam accusantium vel provident ducimus, laborum doloremque hic repudiandae in praesentium porro eos ex ut nam vitae omnis, voluptates tempore.</p>
+              <p className="indent-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa? Ullam accusantium vel provident ducimus, laborum doloremque hic repudiandae in praesentium porro eos ex ut nam vitae omnis, voluptates tempore.</p>
               <div className="flex flex-row pl-4  gap-5">
                 <ul className="list-disc">
                   <li>Pengetahuan Kuantitatif</li>
@@ -136,15 +137,15 @@ const ProgramBelajar = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-column text-justify pt-2 gap-2 " hidden={index != 4}>
+            <div className="flex flex-column text-justif pt-2 gap-2 " hidden={index != 4}>
               <h1 className="font-semibold pb-2">Kursus Khusus</h1>
-              <p>
+              <p className="indent-10">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, quasi nam laborum ipsa quae incidunt blanditiis facere consequuntur veritatis, mollitia perspiciatis asperiores omnis architecto nulla, voluptatibus
                 aperiam quod eligendi earum aspernatur! Placeat, voluptas distinctio voluptatem commodi quas porro rem ullam soluta. Illo tempora saepe deserunt laudantium dignissimos sit repellendus, facere eius unde eveniet tenetur
                 consectetur beatae, eligendi porro quod repellat blanditiis nemo ipsa voluptatum assumenda totam ducimus quidem quia. Illum, placeat animi dolore cumque perferendis labore, nihil reprehenderit vel unde, omnis assumenda. Eius
                 est excepturi, cumque neque temporibus reiciendis distinctio at magnam unde ut vitae consequuntur inventore totam fugiat!
               </p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa? Ullam accusantium vel provident ducimus, laborum doloremque hic repudiandae in praesentium porro eos ex ut nam vitae omnis, voluptates tempore.</p>
+              <p className="indent-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa? Ullam accusantium vel provident ducimus, laborum doloremque hic repudiandae in praesentium porro eos ex ut nam vitae omnis, voluptates tempore.</p>
               <div className="flex flex-row pl-4  gap-5">
                 <ul className="list-disc">
                   <li>Pengetahuan Kuantitatif</li>

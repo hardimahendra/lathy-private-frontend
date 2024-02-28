@@ -26,12 +26,12 @@ const ProgramBelajar = () => {
                 Kursus Khusus
               </button>
             </div>
-            {dataProgoram.map(({ id, jenjang, desc1, desc2 }) => {
-              <div className="flex flex-column text-justif pt-2 gap-2" key={id} hidden={index != id}>
-                <h1 className="font-semibold pb-2">{jenjang}</h1>
-                <p>{desc1}</p>
-                <p>{desc2}</p>
-                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+            {dataProgoram.map((item) => {
+              <div className="flex flex-column text-justif pt-2 gap-2" key={item.id} hidden={index != item.id}>
+                <h1 className="font-semibold pb-2">{item.jenjang}</h1>
+                <p>{item.desc1}</p>
+                <p>{item.desc2}</p>
+                {/* <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
                   <ul className="list-disc">
                     <li>Matematik</li>
                     <li>IPA </li>
@@ -108,7 +108,7 @@ const ProgramBelajar = () => {
                     <li>SIMAK UI</li>
                     <li>UTUL UGM</li>
                   </ul>
-                </div>
+                </div> */}
               </div>;
             })}
           </div>

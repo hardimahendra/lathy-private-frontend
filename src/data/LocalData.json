@@ -123,38 +123,43 @@
   "programBelajar":[
     {
       "id": 1,
-      "title":"SD",
+      "title": "SD",
       "jenjang": "Sekolah Dasar",
       "desc1": "Buat adek-adek yang lagi ngejar pelajaran SD, pasti ngerasain kan betapa kompleks dan susahnya pelajarannya sekarang? Gak bisa dipungkiri, pelajaran SD juga makin tricky, apalagi dengan kurikulum terbaru yang kadang bikin pusing. Ada matematika yang mungkin bikin kalian mikir keras, bahasa Indonesia yang minta fokus, dan masih banyak lagi. Buat adek-adek yang merasa kesulitan di kelas, kita paham kok, dan gak usah khawatir, ada cara buatngatasin kesulitan belajar ini.",
-      "desc2": "Buat yang lagi ngerasa kesulitan belajar komunal di kelas, coba deh manfaatin layanan guru privat di LapakGuruPrivat.com. Gak perlu khawatir lagi nyari guru privat yang pas buat adek-adek. Di sini, bisa pilih sendiri guru privat untuk pelajaran SD yang sesuai sama kebutuhan. Enaknya lagi, bisa belajar online atau offline, dan adek-adek juga bisa pilih sendiri waktu yang nyaman. Jadi, gak perlu lagi deh mikirin kesulitan belajar di kelas, karena LapakGuruPrivat.com siap bantu adek-adek buat ngejar pelajaran SD dengan lebih enjoy!"
+      "desc2": "Buat yang lagi ngerasa kesulitan belajar komunal di kelas, coba deh manfaatin layanan guru privat di LapakGuruPrivat.com. Gak perlu khawatir lagi nyari guru privat yang pas buat adek-adek. Di sini, bisa pilih sendiri guru privat untuk pelajaran SD yang sesuai sama kebutuhan. Enaknya lagi, bisa belajar online atau offline, dan adek-adek juga bisa pilih sendiri waktu yang nyaman. Jadi, gak perlu lagi deh mikirin kesulitan belajar di kelas, karena LapakGuruPrivat.com siap bantu adek-adek buat ngejar pelajaran SD dengan lebih enjoy!",
+      "pelajaran": [{ "pilihan1": "a b c d" }, { "pilihan2": "d c b a" }]
     },
     {
       "id": 2,
-      "title":"SMP",
+      "title": "SMP",
       "jenjang": "Sekolah Menengah Pertama",
       "desc1": "Buat Kamu yang lagi ngarungi lautan pelajaran SMP, pasti tahu betapa susahnya mengejar kurikulum terbaru yang makin kompleks, kan? Nah, kita nggak bisa ngehindar dari kesulitan belajar ini. Mulai dari matematika yang bikin mikir keras, fisika yang pusingin kepala, sampe bahasa asing yang terkadang bawa-bawa kamus. Emang, SMP nggak main-main, deh! Belum lagi tugas-tugas yang numpuk kayak gunung, bisa jadi bikin kepala berasa mau meledak. Jangan khawatir, kita semua ngalamin hal yang sama. Semangat aja, karena solusinya ada!",
-      "desc2": "Bagi Kamu yang ngerasa kesusahan belajar di kelas yang komunal banget, sekarang Kamu bisa manfaatin layanan guru privat di LapakGuruPrivat.com, lho! Enggak usah mikirin lagi tuh suasana kelas yang rame, guru yang nggak fokus ke Kamu, atau tumpukan tugas yang bikin bingung. Di sini, Kamu bisa cari guru privat SMP sesuai kebutuhan Kamu. Enaknya lagi, bisa belajar sesuai tempo Kamu sendiri. Jadi, yuk manfaatin kesempatan buat ngejar pelajaran SMP tanpa pusing lagi"
+      "desc2": "Bagi Kamu yang ngerasa kesusahan belajar di kelas yang komunal banget, sekarang Kamu bisa manfaatin layanan guru privat di LapakGuruPrivat.com, lho! Enggak usah mikirin lagi tuh suasana kelas yang rame, guru yang nggak fokus ke Kamu, atau tumpukan tugas yang bikin bingung. Di sini, Kamu bisa cari guru privat SMP sesuai kebutuhan Kamu. Enaknya lagi, bisa belajar sesuai tempo Kamu sendiri. Jadi, yuk manfaatin kesempatan buat ngejar pelajaran SMP tanpa pusing lagi",
+      "pelajaran": ["e", "f", "g"]
     },
     {
       "id": 3,
-      "title":"SMA",
+      "title": "SMA",
       "jenjang": "Sekolah Menengah Atas",
       "desc1": "Dengan tujuan membantu siswa SMA meraih prestasi akademik yang gemilang serta sukses dalam menghadapi ujian penting seperti UTBK SNBT. Kami menyadari betapa pentingnya persiapan yang matang untuk memasuki perguruan tinggi favorit seperti UI dan ITB. Oleh karena itu, kami menyediakan layanan Guru Les Privat SMA dan UTBK SNBT yang dirancang khusus untuk memberikan bantuan yang dibutuhkan oleh setiap siswa.",
-      "desc2": "Siswa akan mendapatkan pembelajaran intensif dari guru-guru berpengalaman yang ahli dalam materi pelajaran SMA dan persiapan SNBT. Kami tidak hanya fokus pada pemahaman konsep-konsep akademis, tetapi juga memberikan strategi pembelajaran yang efektif agar siswa siap menghadapi soal-soal ujian dengan percaya diri. Dengan pendekatan personal dan dukungan penuh dari tim kami, siswa dijamin mendapatkan bimbingan yang terbaik untuk meraih prestasi di sekolah dan mencapai kesuksesan dalam ujian SNBT."
+      "desc2": "Siswa akan mendapatkan pembelajaran intensif dari guru-guru berpengalaman yang ahli dalam materi pelajaran SMA dan persiapan SNBT. Kami tidak hanya fokus pada pemahaman konsep-konsep akademis, tetapi juga memberikan strategi pembelajaran yang efektif agar siswa siap menghadapi soal-soal ujian dengan percaya diri. Dengan pendekatan personal dan dukungan penuh dari tim kami, siswa dijamin mendapatkan bimbingan yang terbaik untuk meraih prestasi di sekolah dan mencapai kesuksesan dalam ujian SNBT.",
+      "pelajaran": ["h", "i"]
     },
     {
       "id": 4,
-      "title":"D3/D4/S1",
+      "title": "D3/D4/S1",
       "jenjang": "Kuliah",
       "desc1": "",
-      "desc2": ""
+      "desc2": "",
+      "pelajaran": ["j", "k", "l", "m"]
     },
     {
       "id": 5,
-      "title":"Khusus",
+      "title": "Khusus",
       "jenjang": "Kursus Khusus",
       "desc1": "",
-      "desc2": ""
+      "desc2": "",
+      "pelajaran": ["n", "o", "p", "q"]
     }
   ]
 }

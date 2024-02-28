@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {programBelajar} from '../../data/LocalData.json'
 const ProgramBelajar = () => {
-  const dataProgoram = programBelajar;
+  const dataProgram = programBelajar;
   const [index, setIndex] = useState(1);
   return (
     <>
@@ -10,28 +10,21 @@ const ProgramBelajar = () => {
           <div className="flex flex-column items-center justify-center">
             <h1 className="text-lg font-bold">Program Les Private</h1>
             <div className="flex flex-row flex-wrap  sm:justify-around justify-center items-center gap-2 w-full  my-4 p-2">
-              <button onClick={() => setIndex(1)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px]">
-                SD
-              </button>
-              <button onClick={() => setIndex(2)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] ">
-                SMP
-              </button>
-              <button onClick={() => setIndex(3)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] ">
-                SMA
-              </button>
-              <button onClick={() => setIndex(4)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] ">
-                Kuliah
-              </button>
-              <button onClick={() => setIndex(5)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] ">
-                Kursus Khusus
-              </button>
+              {dataProgram.map((item) => (
+                <>
+                  <button onClick={() => setIndex(item.id)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px]">
+                    {item.title}
+                  </button>
+                </>
+              ))}
             </div>
-            {dataProgoram.map((item) => {
-              <div className="flex flex-column text-justif pt-2 gap-2" key={item.id} hidden={index != item.id}>
-                <h1 className="font-semibold pb-2">{item.jenjang}</h1>
-                <p>{item.desc1}</p>
-                <p>{item.desc2}</p>
-                {/* <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+            {dataProgram.map((item) => (
+                <div className="flex flex-column text-justif pt-2 gap-2" key={item.id} hidden={index != item.id}>
+                  <h1 className="font-semibold pb-2">{item.jenjang}</h1>
+                  <p className="indent-10">{item.desc1}</p>
+                  <p className="indent-10">{item.desc2}</p>
+                </div>
+                <div className="flex flex-row pl-4  gap-5" hidden={index == 1}>
                   <ul className="list-disc">
                     <li>Matematik</li>
                     <li>IPA </li>
@@ -45,7 +38,7 @@ const ProgramBelajar = () => {
                     <li>Pendidikan Agama Islam</li>
                   </ul>
                 </div>
-                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+                <div className="flex flex-row pl-4  gap-5" hidden={index == 2}>
                   <ul className="list-disc">
                     <li>Matematik</li>
                     <li>IPA </li>
@@ -59,7 +52,7 @@ const ProgramBelajar = () => {
                     <li>Pendidikan Agama Islam</li>
                   </ul>
                 </div>
-                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+                <div className="flex flex-row pl-4  gap-5" hidden={index == 3}>
                   <ul className="list-disc">
                     <li>Penalaran Matematik</li>
                     <li>Fisika </li>
@@ -77,7 +70,7 @@ const ProgramBelajar = () => {
                     <li>Sejarah</li>
                   </ul>
                 </div>
-                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+                <div className="flex flex-row pl-4  gap-5" hidden={index == 4}>
                   <ul className="list-disc">
                     <li>Pengetahuan Kuantitatif</li>
                     <li>Kemampuan Penalaran Umum</li>
@@ -93,7 +86,7 @@ const ProgramBelajar = () => {
                     <li>UTUL UGM</li>
                   </ul>
                 </div>
-                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+                <div className="flex flex-row pl-4  gap-5" hidden={index == 5}>
                   <ul className="list-disc">
                     <li>Pengetahuan Kuantitatif</li>
                     <li>Kemampuan Penalaran Umum</li>
@@ -108,9 +101,8 @@ const ProgramBelajar = () => {
                     <li>SIMAK UI</li>
                     <li>UTUL UGM</li>
                   </ul>
-                </div> */}
-              </div>;
-            })}
+                </div>
+            ))}
           </div>
         </div>
       </div>

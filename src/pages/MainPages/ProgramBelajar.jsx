@@ -10,63 +10,42 @@ const ProgramBelajar = () => {
           <div className="flex flex-column items-center justify-center">
             <h1 className="text-lg font-bold">Program Les Private</h1>
             <div className="flex flex-row flex-wrap  sm:justify-around justify-center items-center gap-2 w-full  my-4 p-2">
-              <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px]" onClick={() => setIndex(0)}>
+              <button onClick={() => setIndex(1)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px]">
                 SD
               </button>
-              <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] " onClick={() => setIndex(1)}>
+              <button onClick={() => setIndex(2)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] ">
                 SMP
               </button>
-              <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] " onClick={() => setIndex(2)}>
+              <button onClick={() => setIndex(3)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] ">
                 SMA
               </button>
-              <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] " onClick={() => setIndex(3)}>
+              <button onClick={() => setIndex(4)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] ">
                 Kuliah
               </button>
-              <button className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] " 
-              onClick={() => setIndex(4)}>
+              <button onClick={() => setIndex(5)} className="flex justify-around items-center gap-4 border-b-2 hover:border-orange-500 hover:text-orange-500 transition-all duration-75 w-[150px] h-[40px] ">
                 Kursus Khusus
               </button>
             </div>
-            {dataProgoram.map(({id, jenjang, desc1, desc2, pelajaran}) => {
-
-            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != id}>
-              <h1 className="font-semibold pb-2">{jenjang}</h1>
-              <p>
-{desc1}
-              </p>
-              <p>
-{desc2}
-
-              </p>
-              <div className="flex flex-row pl-4  gap-5">
-                <ul className="list-disc">
-                  <li>Matematik</li>
-                  <li>IPA </li>
-                  <li>IPS</li>
-                  <li>Pendidikan Kewarganegaraan</li>
-                </ul>
-                <ul className="list-disc">
-                  <li>Bahasa Indonesia</li>
-                  <li>Bahasa Inggris</li>
-                  <li>Seni Budaya</li>
-                  <li>Pendidikan Agama Islam</li>
-                </ul>
-              </div>
-            </div>
-            })}
-            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != 1}>
-              <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Pertama</h1>
-              <p>
-                Buat Kamu yang lagi ngarungi lautan pelajaran SMP, pasti tahu betapa susahnya mengejar kurikulum terbaru yang makin kompleks, kan? Nah, kita nggak bisa ngehindar dari kesulitan belajar ini. Mulai dari matematika yang bikin
-                mikir keras, fisika yang pusingin kepala, sampe bahasa asing yang terkadang bawa-bawa kamus. Emang, SMP nggak main-main, deh! Belum lagi tugas-tugas yang numpuk kayak gunung, bisa jadi bikin kepala berasa mau meledak. Jangan
-                khawatir, kita semua ngalamin hal yang sama. Semangat aja, karena solusinya ada!
-              </p>
-              <p>
-                Bagi Kamu yang ngerasa kesusahan belajar di kelas yang komunal banget, sekarang Kamu bisa manfaatin layanan guru privat di LapakGuruPrivat.com, lho! Enggak usah mikirin lagi tuh suasana kelas yang rame, guru yang nggak fokus
-                ke Kamu, atau tumpukan tugas yang bikin bingung. Di sini, Kamu bisa cari guru privat SMP sesuai kebutuhan Kamu. Enaknya lagi, bisa belajar sesuai tempo Kamu sendiri. Jadi, yuk manfaatin kesempatan buat ngejar pelajaran SMP
-                tanpa pusing lagi
-              </p>
-              <div className="flex flex-row pl-4  gap-5">
+            {dataProgoram.map(({ id, jenjang, desc1, desc2, pelajaran }) => {
+              <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != id}>
+                <h1 className="font-semibold pb-2">{jenjang}</h1>
+                <p>{desc1}</p>
+                <p>{desc2}</p>
+                <div className="flex flex-row pl-4  gap-5">
+                  <ul className="list-disc">
+                    <li>Matematik</li>
+                    <li>IPA </li>
+                    <li>IPS</li>
+                    <li>Pendidikan Kewarganegaraan</li>
+                  </ul>
+                  <ul className="list-disc">
+                    <li>Bahasa Indonesia</li>
+                    <li>Bahasa Inggris</li>908
+                    <li>Seni Budaya</li>
+                    <li>Pendidikan Agama Islam</li>
+                  </ul>
+                </div>
+                <div className="flex flex-row pl-4  gap-5">
                 <ul className="list-disc">
                   <li>Matematik</li>
                   <li>IPA </li>
@@ -80,18 +59,6 @@ const ProgramBelajar = () => {
                   <li>Pendidikan Agama Islam</li>
                 </ul>
               </div>
-            </div>
-            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != 2}>
-              <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Atas</h1>
-              <p>
-                dengan tujuan membantu siswa SMA meraih prestasi akademik yang gemilang serta sukses dalam menghadapi ujian penting seperti UTBK SNBT. Kami menyadari betapa pentingnya persiapan yang matang untuk memasuki perguruan tinggi
-                favorit seperti UI dan ITB. Oleh karena itu, kami menyediakan layanan Guru Les Privat SMA dan UTBK SNBT yang dirancang khusus untuk memberikan bantuan yang dibutuhkan oleh setiap siswa.
-              </p>
-              <p>
-                siswa akan mendapatkan pembelajaran intensif dari guru-guru berpengalaman yang ahli dalam materi pelajaran SMA dan persiapan SNBT. Kami tidak hanya fokus pada pemahaman konsep-konsep akademis, tetapi juga memberikan strategi
-                pembelajaran yang efektif agar siswa siap menghadapi soal-soal ujian dengan percaya diri. Dengan pendekatan personal dan dukungan penuh dari tim kami, siswa dijamin mendapatkan bimbingan yang terbaik untuk meraih prestasi di
-                sekolah dan mencapai kesuksesan dalam ujian SNBT.
-              </p>
               <div className="flex flex-row pl-4  gap-5">
                 <ul className="list-disc">
                   <li>Penalaran Matematik</li>
@@ -110,16 +77,18 @@ const ProgramBelajar = () => {
                   <li>Sejarah</li>
                 </ul>
               </div>
+              </div>;
+            })}
+            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != 1}>
+              <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Pertama</h1>
+
+            </div>
+            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != 2}>
+              <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Atas</h1>
+              
             </div>
             <div className="flex flex-column text-justif pt-2 gap-2 " hidden={index != 3}>
               <h1 className="font-semibold pb-2">Jenjang Diploma/Sarjana</h1>
-              <p className="indent-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, quasi nam laborum ipsa quae incidunt blanditiis facere consequuntur veritatis, mollitia perspiciatis asperiores omnis architecto nulla, voluptatibus
-                aperiam quod eligendi earum aspernatur! Placeat, voluptas distinctio voluptatem commodi quas porro rem ullam soluta. Illo tempora saepe deserunt laudantium dignissimos sit repellendus, facere eius unde eveniet tenetur
-                consectetur beatae, eligendi porro quod repellat blanditiis nemo ipsa voluptatum assumenda totam ducimus quidem quia. Illum, placeat animi dolore cumque perferendis labore, nihil reprehenderit vel unde, omnis assumenda. Eius
-                est excepturi, cumque neque temporibus reiciendis distinctio at magnam unde ut vitae consequuntur inventore totam fugiat!
-              </p>
-              <p className="indent-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa? Ullam accusantium vel provident ducimus, laborum doloremque hic repudiandae in praesentium porro eos ex ut nam vitae omnis, voluptates tempore.</p>
               <div className="flex flex-row pl-4  gap-5">
                 <ul className="list-disc">
                   <li>Pengetahuan Kuantitatif</li>
@@ -139,13 +108,6 @@ const ProgramBelajar = () => {
             </div>
             <div className="flex flex-column text-justif pt-2 gap-2 " hidden={index != 4}>
               <h1 className="font-semibold pb-2">Kursus Khusus</h1>
-              <p className="indent-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti, quasi nam laborum ipsa quae incidunt blanditiis facere consequuntur veritatis, mollitia perspiciatis asperiores omnis architecto nulla, voluptatibus
-                aperiam quod eligendi earum aspernatur! Placeat, voluptas distinctio voluptatem commodi quas porro rem ullam soluta. Illo tempora saepe deserunt laudantium dignissimos sit repellendus, facere eius unde eveniet tenetur
-                consectetur beatae, eligendi porro quod repellat blanditiis nemo ipsa voluptatum assumenda totam ducimus quidem quia. Illum, placeat animi dolore cumque perferendis labore, nihil reprehenderit vel unde, omnis assumenda. Eius
-                est excepturi, cumque neque temporibus reiciendis distinctio at magnam unde ut vitae consequuntur inventore totam fugiat!
-              </p>
-              <p className="indent-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa? Ullam accusantium vel provident ducimus, laborum doloremque hic repudiandae in praesentium porro eos ex ut nam vitae omnis, voluptates tempore.</p>
               <div className="flex flex-row pl-4  gap-5">
                 <ul className="list-disc">
                   <li>Pengetahuan Kuantitatif</li>

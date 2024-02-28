@@ -31,7 +31,7 @@ const ProgramBelajar = () => {
                 <h1 className="font-semibold pb-2">{jenjang}</h1>
                 <p>{desc1}</p>
                 <p>{desc2}</p>
-                <div className="flex flex-row pl-4  gap-5">
+                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
                   <ul className="list-disc">
                     <li>Matematik</li>
                     <li>IPA </li>
@@ -45,86 +45,72 @@ const ProgramBelajar = () => {
                     <li>Pendidikan Agama Islam</li>
                   </ul>
                 </div>
-                <div className="flex flex-row pl-4  gap-5">
-                <ul className="list-disc">
-                  <li>Matematik</li>
-                  <li>IPA </li>
-                  <li>IPS</li>
-                  <li>Pendidikan Kewarganegaraan</li>
-                </ul>
-                <ul className="list-disc">
-                  <li>Bahasa Indonesia</li>
-                  <li>Bahasa Inggris</li>
-                  <li>Keterampilan TIK</li>
-                  <li>Pendidikan Agama Islam</li>
-                </ul>
-              </div>
-              <div className="flex flex-row pl-4  gap-5">
-                <ul className="list-disc">
-                  <li>Penalaran Matematik</li>
-                  <li>Fisika </li>
-                  <li>Kimia</li>
-                  <li>Biologi</li>
-                  <li>Test Potensi Skolastik</li>
-                  <li>Sekolah Kedinasan</li>
-                </ul>
-                <ul className="list-disc">
-                  <li>Literasi Bahasa Indonesia</li>
-                  <li>Literasi Bahasa Inggris</li>
-                  <li>Sosiologi</li>
-                  <li>Geografi</li>
-                  <li>Ekonomi</li>
-                  <li>Sejarah</li>
-                </ul>
-              </div>
+                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+                  <ul className="list-disc">
+                    <li>Matematik</li>
+                    <li>IPA </li>
+                    <li>IPS</li>
+                    <li>Pendidikan Kewarganegaraan</li>
+                  </ul>
+                  <ul className="list-disc">
+                    <li>Bahasa Indonesia</li>
+                    <li>Bahasa Inggris</li>
+                    <li>Keterampilan TIK</li>
+                    <li>Pendidikan Agama Islam</li>
+                  </ul>
+                </div>
+                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+                  <ul className="list-disc">
+                    <li>Penalaran Matematik</li>
+                    <li>Fisika </li>
+                    <li>Kimia</li>
+                    <li>Biologi</li>
+                    <li>Test Potensi Skolastik</li>
+                    <li>Sekolah Kedinasan</li>
+                  </ul>
+                  <ul className="list-disc">
+                    <li>Literasi Bahasa Indonesia</li>
+                    <li>Literasi Bahasa Inggris</li>
+                    <li>Sosiologi</li>
+                    <li>Geografi</li>
+                    <li>Ekonomi</li>
+                    <li>Sejarah</li>
+                  </ul>
+                </div>
+                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+                  <ul className="list-disc">
+                    <li>Pengetahuan Kuantitatif</li>
+                    <li>Kemampuan Penalaran Umum</li>
+                    <li>Pengetahuan dan Pemahaman Umum</li>
+                    <li>Kemampuan Memahami bacaan dan menulis</li>
+                    <li>Saintek</li>
+                  </ul>
+                  <ul className="list-disc">
+                    <li>Soshum</li>
+                    <li>Literasi Bahasa Indonesia</li>
+                    <li>Literasi Bahasa Inggris</li>
+                    <li>SIMAK UI</li>
+                    <li>UTUL UGM</li>
+                  </ul>
+                </div>
+                <div className="flex flex-row pl-4  gap-5" hidden={index != id}>
+                  <ul className="list-disc">
+                    <li>Pengetahuan Kuantitatif</li>
+                    <li>Kemampuan Penalaran Umum</li>
+                    <li>Pengetahuan dan Pemahaman Umum</li>
+                    <li>Kemampuan Memahami bacaan dan menulis</li>
+                    <li>Saintek</li>
+                  </ul>
+                  <ul className="list-disc">
+                    <li>Soshum</li>
+                    <li>Literasi Bahasa Indonesia</li>
+                    <li>Literasi Bahasa Inggris</li>
+                    <li>SIMAK UI</li>
+                    <li>UTUL UGM</li>
+                  </ul>
+                </div>
               </div>;
             })}
-            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != 1}>
-              <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Pertama</h1>
-
-            </div>
-            <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != 2}>
-              <h1 className="font-semibold pb-2">Jenjang Sekolah Menengah Atas</h1>
-              
-            </div>
-            <div className="flex flex-column text-justif pt-2 gap-2 " hidden={index != 3}>
-              <h1 className="font-semibold pb-2">Jenjang Diploma/Sarjana</h1>
-              <div className="flex flex-row pl-4  gap-5">
-                <ul className="list-disc">
-                  <li>Pengetahuan Kuantitatif</li>
-                  <li>Kemampuan Penalaran Umum</li>
-                  <li>Pengetahuan dan Pemahaman Umum</li>
-                  <li>Kemampuan Memahami bacaan dan menulis</li>
-                  <li>Saintek</li>
-                </ul>
-                <ul className="list-disc">
-                  <li>Soshum</li>
-                  <li>Literasi Bahasa Indonesia</li>
-                  <li>Literasi Bahasa Inggris</li>
-                  <li>SIMAK UI</li>
-                  <li>UTUL UGM</li>
-                </ul>
-              </div>
-            </div>
-            <div className="flex flex-column text-justif pt-2 gap-2 " hidden={index != 4}>
-              <h1 className="font-semibold pb-2">Kursus Khusus</h1>
-              <div className="flex flex-row pl-4  gap-5">
-                <ul className="list-disc">
-                  <li>Pengetahuan Kuantitatif</li>
-                  <li>Kemampuan Penalaran Umum</li>
-                  <li>Pengetahuan dan Pemahaman Umum</li>
-                  <li>Kemampuan Memahami bacaan dan menulis</li>
-                  <li>Saintek</li>
-                </ul>
-                <ul className="list-disc">
-                  <li>Soshum</li>
-                  <li>Literasi Bahasa Indonesia</li>
-                  <li>Literasi Bahasa Inggris</li>
-                  <li>SIMAK UI</li>
-                  <li>UTUL UGM</li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>

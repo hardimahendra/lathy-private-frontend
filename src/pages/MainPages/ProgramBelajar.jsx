@@ -26,8 +26,8 @@ const ProgramBelajar = () => {
                 Kursus Khusus
               </button>
             </div>
-            {dataProgoram.map(({ id, jenjang, desc1, desc2, pelajaran }) => {
-              <div className="flex flex-column text-justif pt-2 gap-2" hidden={index != id}>
+            {dataProgoram.map(({ id, jenjang, desc1, desc2 }) => {
+              <div className="flex flex-column text-justif pt-2 gap-2" key={id} hidden={index != id}>
                 <h1 className="font-semibold pb-2">{jenjang}</h1>
                 <p>{desc1}</p>
                 <p>{desc2}</p>

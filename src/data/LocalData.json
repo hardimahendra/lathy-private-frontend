@@ -181,7 +181,7 @@
       "title": "D3/D4/S1",
       "jenjang": "Kuliah",
       "desc1": "Mata kuliah selama satu semester dirasa kurang ?, di Lathy Private menyediakan berbagai macap mata pelajaran yang dapat dijadikan sebagai bahan pelajaran tambahan untuk para mahasisa, disini kami berusaha menymapaikan/memberikan materi yang tidak diajarkan di kampus masing-masing, dengan tujuan membantu menambah pengetahuan yangg tidak diberikan pada masa perkuliahan berlangsung, kami menyediakan kursus untuk para mahasiswa agar dapat meningkatkan potensi masimalnya dalam belajar",
-      "desc2": "Kami juga memberikan kisi-kisi yang mungkin akan muncul ketika ujiaan akan diadakan",
+      "desc2": "",
       "pelajaran": {
         "mapel1": "Pengetahuan Kuantitatif",
         "mapel2": "Pengetahuan Penalaran Umum",
@@ -199,7 +199,7 @@
       "id": 5,
       "title": "Khusus",
       "jenjang": "Kursus Khusus",
-      "desc1": "",
+      "desc1": "Pada program Khusus disini kami menawarkan layanan kursus dengan pilihan mata pelajaran yang diinginkan sesuai dengan tujuan dari kursus itu sendiri, kami menawarkan berbagai macam bidang yang memiliki potensi tinggi dalam mencapai perkerjaan yang diinginakan dari kursus berbahasa untuk keperluan berpergian ke luar negri maupun pelajaran yang saat ini sedang dibutuhkan dalam dunia industri",
       "desc2": "",
       "pelajaran": {
         "mapel1": "Bahasa Inggris Advance - Intermediate",

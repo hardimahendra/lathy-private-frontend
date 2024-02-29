@@ -16,7 +16,7 @@ const Home = () => {
         <div className="flex flex-column flex-wrap justify-center ">
           <Swipper />
         </div>
-        <div className=" flex justify-center items-center p-4 text-white">
+        <div className=" flex justify-center items-center text-white">
           <PaketProgram />
         </div>
         <div>

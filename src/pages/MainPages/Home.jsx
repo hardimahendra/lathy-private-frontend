@@ -9,19 +9,11 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-column">
-        <div className="flex flex-column items-center justify-center ">
-          <ProgramBelajar />
-          <Keunggulan />
-        </div>
-        <div className="flex flex-column flex-wrap justify-center ">
-          <Swipper />
-        </div>
-        <div className=" flex justify-center items-center text-white">
-          <PaketProgram />
-        </div>
-        <div>
-          <Profil />
-        </div>
+        <ProgramBelajar />
+        <Keunggulan />
+        <Swipper />
+        <PaketProgram />
+        <Profil />
       </div>
     </>
   );

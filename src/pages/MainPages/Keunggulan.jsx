@@ -17,7 +17,7 @@ const Keunggulan = () => {
   ];
   return (
     <>
-      <div className="flex flex-column justify-center items-center h-full text-white pt-10">
+      <div className="flex flex-column justify-center items-center text-white pt-10">
         <div className="flex flex-column justify-center items-center pt-2 ">
           <h1 className="sm:text-2xl pb-2">Layanan & Keunggulan Lathy Private</h1>
           <div className="flex flex-row flex-wrap justify-center items-center w-[50%] ">

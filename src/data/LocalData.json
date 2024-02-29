@@ -144,7 +144,16 @@
       "jenjang": "Sekolah Menengah Pertama",
       "desc1": "Buat Kamu yang lagi ngarungi lautan pelajaran SMP, pasti tahu betapa susahnya mengejar kurikulum terbaru yang makin kompleks, kan? Nah, kita nggak bisa ngehindar dari kesulitan belajar ini. Mulai dari matematika yang bikin mikir keras, fisika yang pusingin kepala, sampe bahasa asing yang terkadang bawa-bawa kamus. Emang, SMP nggak main-main, deh! Belum lagi tugas-tugas yang numpuk kayak gunung, bisa jadi bikin kepala berasa mau meledak. Jangan khawatir, kita semua ngalamin hal yang sama. Semangat aja, karena solusinya ada!",
       "desc2": "Bagi Kamu yang ngerasa kesusahan belajar di kelas yang komunal banget, sekarang Kamu bisa manfaatin layanan guru privat di LapakGuruPrivat.com, lho! Enggak usah mikirin lagi tuh suasana kelas yang rame, guru yang nggak fokus ke Kamu, atau tumpukan tugas yang bikin bingung. Di sini, Kamu bisa cari guru privat SMP sesuai kebutuhan Kamu. Enaknya lagi, bisa belajar sesuai tempo Kamu sendiri. Jadi, yuk manfaatin kesempatan buat ngejar pelajaran SMP tanpa pusing lagi",
-      "pelajaran": ["e", "f", "g"]
+      "pelajaran": {
+        "mapel1": "Matematik",
+        "mapel2": "IPA",
+        "mapel3": "IPS",
+        "mapel4": "Pendidikan Kewarganegaraan",
+        "mapel5": "Bahasa Indonesia",
+        "mapel6": "Bahasa Inggris",
+        "mapel7": "Seni Budaya",
+        "mapel8": "Pendidikan Agama Islam"
+      }
     },
     {
       "id": 3,
@@ -152,15 +161,39 @@
       "jenjang": "Sekolah Menengah Atas",
       "desc1": "Dengan tujuan membantu siswa SMA meraih prestasi akademik yang gemilang serta sukses dalam menghadapi ujian penting seperti UTBK SNBT. Kami menyadari betapa pentingnya persiapan yang matang untuk memasuki perguruan tinggi favorit seperti UI dan ITB. Oleh karena itu, kami menyediakan layanan Guru Les Privat SMA dan UTBK SNBT yang dirancang khusus untuk memberikan bantuan yang dibutuhkan oleh setiap siswa.",
       "desc2": "Siswa akan mendapatkan pembelajaran intensif dari guru-guru berpengalaman yang ahli dalam materi pelajaran SMA dan persiapan SNBT. Kami tidak hanya fokus pada pemahaman konsep-konsep akademis, tetapi juga memberikan strategi pembelajaran yang efektif agar siswa siap menghadapi soal-soal ujian dengan percaya diri. Dengan pendekatan personal dan dukungan penuh dari tim kami, siswa dijamin mendapatkan bimbingan yang terbaik untuk meraih prestasi di sekolah dan mencapai kesuksesan dalam ujian SNBT.",
-      "pelajaran": ["h", "i"]
+      "pelajaran": {
+        "mapel1": "Penalaran Matematika",
+        "mapel2": "Fisika",
+        "mapel3": "Kimia",
+        "mapel4": "Biologi",
+        "mapel5": "Test Potensi Skolastik",
+        "mapel6": "Sekolah Kedinasan",
+        "mapel7": "Literasi Bahasa Indonesia",
+        "mapel8": "Literasi Bahasa Inggris",
+        "mapel9": "Sosiologi",
+        "mapel10": "Geografi",
+        "mapel11": "Ekonomi",
+        "mapel12": "Sejarah"
+      }
     },
     {
       "id": 4,
       "title": "D3/D4/S1",
       "jenjang": "Kuliah",
-      "desc1": "",
-      "desc2": "",
-      "pelajaran": ["j", "k", "l", "m"]
+      "desc1": "Mata kuliah selama satu semester dirasa kurang ?, di Lathy Private menyediakan berbagai macap mata pelajaran yang dapat dijadikan sebagai bahan pelajaran tambahan untuk para mahasisa, disini kami berusaha menymapaikan/memberikan materi yang tidak diajarkan di kampus masing-masing, dengan tujuan membantu menambah pengetahuan yangg tidak diberikan pada masa perkuliahan berlangsung, kami menyediakan kursus untuk para mahasiswa agar dapat meningkatkan potensi masimalnya dalam belajar",
+      "desc2": "Kami juga memberikan kisi-kisi yang mungkin akan muncul ketika ujiaan akan diadakan",
+      "pelajaran": {
+        "mapel1": "Pengetahuan Kuantitatif",
+        "mapel2": "Pengetahuan Penalaran Umum",
+        "mapel3": "Pengetahuan dan Pemahaman Umum",
+        "mapel4": "Kemampuan memahami bacaan dan menulis",
+        "mapel5": "Saintek",
+        "mapel6": "Soshum",
+        "mapel7": "Literasi Bahasa Indonesia",
+        "mapel8": "Literasi Bahasa Inggris",
+        "mapel9": "SIMAK UI",
+        "mapel10": "UTUL UGM"
+      }
     },
     {
       "id": 5,
@@ -168,7 +201,18 @@
       "jenjang": "Kursus Khusus",
       "desc1": "",
       "desc2": "",
-      "pelajaran": ["n", "o", "p", "q"]
+      "pelajaran": {
+        "mapel1": "Bahasa Inggris Advance - Intermediate",
+        "mapel2": "Bahasa Jepang",
+        "mapel3": "Bahasa Arab",
+        "mapel4": "Bahasa Mandarin",
+        "mapel5": "Frontend Developer",
+        "mapel6": "Backend Developer",
+        "mapel7": "Machine Learning",
+        "mapel8": "Network Security",
+        "mapel9": "Database Manajemen",
+        "mapel10": "Microsoftt Office"
+      }
     }
   ]
 }

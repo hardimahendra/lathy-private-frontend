@@ -23,7 +23,7 @@ const ProgramBelajar = () => {
                 <h1 className="font-semibold pb-2">{item.jenjang}</h1>
                 <p className="indent-10 text-justify ">{item.desc1}</p>
                 <p className="indent-10 text-justify">{item.desc2}</p>
-                <ul className="list-disc pl-5 bg-yellow-500">
+                <ul className="h-[100px] w-full flex flex-column flex-wrap  pl-2 bg-yellow-500">
                   <li>{item.pelajaran.mapel1}</li>
                   <li>{item.pelajaran.mapel2}</li>
                   <li>{item.pelajaran.mapel3}</li>
@@ -32,86 +32,12 @@ const ProgramBelajar = () => {
                   <li>{item.pelajaran.mapel6}</li>
                   <li>{item.pelajaran.mapel7}</li>
                   <li>{item.pelajaran.mapel8}</li>
+                  <li>{item.pelajaran.mapel9}</li>
+                  <li>{item.pelajaran.mapel10}</li>
+                  <li>{item.pelajaran.mapel11}</li>
+                  <li>{item.pelajaran.mapel12}</li>
                 </ul>
               </div>
-              // <div className="flex flex-row pl-4  gap-5" hidden={index == 1}>
-              //   <ul className="list-disc">
-              //     <li>Matematik</li>
-              //     <li>IPA </li>
-              //     <li>IPS</li>
-              //     <li>Pendidikan Kewarganegaraan</li>
-              //   </ul>
-              //   <ul className="list-disc">
-              //     <li>Bahasa Indonesia</li>
-              //     <li>Bahasa Inggris</li>908
-              //     <li>Seni Budaya</li>
-              //     <li>Pendidikan Agama Islam</li>
-              //   </ul>
-              // </div>
-              // <div className="flex flex-row pl-4  gap-5" hidden={index == 2}>
-              //   <ul className="list-disc">
-              //     <li>Matematik</li>
-              //     <li>IPA </li>
-              //     <li>IPS</li>
-              //     <li>Pendidikan Kewarganegaraan</li>
-              //   </ul>
-              //   <ul className="list-disc">
-              //     <li>Bahasa Indonesia</li>
-              //     <li>Bahasa Inggris</li>
-              //     <li>Keterampilan TIK</li>
-              //     <li>Pendidikan Agama Islam</li>
-              //   </ul>
-              // </div>
-              // <div className="flex flex-row pl-4  gap-5" hidden={index == 3}>
-              //   <ul className="list-disc">
-              //     <li>Penalaran Matematik</li>
-              //     <li>Fisika </li>
-              //     <li>Kimia</li>
-              //     <li>Biologi</li>
-              //     <li>Test Potensi Skolastik</li>
-              //     <li>Sekolah Kedinasan</li>
-              //   </ul>
-              //   <ul className="list-disc">
-              //     <li>Literasi Bahasa Indonesia</li>
-              //     <li>Literasi Bahasa Inggris</li>
-              //     <li>Sosiologi</li>
-              //     <li>Geografi</li>
-              //     <li>Ekonomi</li>
-              //     <li>Sejarah</li>
-              //   </ul>
-              // </div>
-              // <div className="flex flex-row pl-4  gap-5" hidden={index == 4}>
-              //   <ul className="list-disc">
-              //     <li>Pengetahuan Kuantitatif</li>
-              //     <li>Kemampuan Penalaran Umum</li>
-              //     <li>Pengetahuan dan Pemahaman Umum</li>
-              //     <li>Kemampuan Memahami bacaan dan menulis</li>
-              //     <li>Saintek</li>
-              //   </ul>
-              //   <ul className="list-disc">
-              //     <li>Soshum</li>
-              //     <li>Literasi Bahasa Indonesia</li>
-              //     <li>Literasi Bahasa Inggris</li>
-              //     <li>SIMAK UI</li>
-              //     <li>UTUL UGM</li>
-              //   </ul>
-              // </div>
-              // <div className="flex flex-row pl-4  gap-5" hidden={index == 5}>
-              //   <ul className="list-disc">
-              //     <li>Pengetahuan Kuantitatif</li>
-              //     <li>Kemampuan Penalaran Umum</li>
-              //     <li>Pengetahuan dan Pemahaman Umum</li>
-              //     <li>Kemampuan Memahami bacaan dan menulis</li>
-              //     <li>Saintek</li>
-              //   </ul>
-              //   <ul className="list-disc">
-              //     <li>Soshum</li>
-              //     <li>Literasi Bahasa Indonesia</li>
-              //     <li>Literasi Bahasa Inggris</li>
-              //     <li>SIMAK UI</li>
-              //     <li>UTUL UGM</li>
-              //   </ul>
-              // </div>
             ))}
           </div>
         </div>

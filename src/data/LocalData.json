@@ -42,82 +42,82 @@
     {
       "id": 1,
       "name": "Peters Bethan",
-      "judul": "Pelajaran Matematika",
+      "judul": "Matematika",
       "image": "./img/users/1.jpg",
       "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     },
     {
       "id": 2,
       "name": "Leslie Morse",
-      "judul": "Pelajaran Matematika",
+      "judul": "Pendidikan Kewarganegaraan",
       "image": "./img/users/2.jpg",
-      "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "information": "Berhasil meningkatkan nilai Pendidikan Kewarganegaraan di sekolah",
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     },
     {
       "id": 3,
       "name": "Edmund Miller",
-      "judul": "Pelajaran Matematika",
+      "judul": "Sekolah Kedinasan",
       "image": "./img/users/3.jpg",
-      "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "information": "Berhasil masuk kedalam sekolah kedinasan",
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     },
     {
       "id": 4,
       "name": "Eric Oconnor",
-      "judul": "Pelajaran Matematika",
+      "judul": "Sejarah",
       "image": "./img/users/4.jpg",
-      "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "information": "Berhasil meningkatkan nilai Sejarah di sekolah",
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     },
     {
       "id": 5,
       "name": "Addie Peters",
-      "judul": "Pelajaran Matematika",
+      "judul": "Ekonomi",
       "image": "./img/users/5.jpg",
-      "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "information": "Berhasil meningkatkan nilai Ekonomi di sekolah",
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     },
     {
       "id": 6,
       "name": "Zarah Hunter",
-      "judul": "Pelajaran Matematika",
+      "judul": "Sosiologi",
       "image": "./img/users/6.jpg",
-      "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "information": "Berhasil meningkatkan nilai Sosiologi di sekolah",
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     },
     {
       "id": 7,
       "name": "Casper Barlow",
-      "judul": "Pelajaran Matematika",
+      "judul": "Biologi",
       "image": "./img/users/7.jpg",
-      "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "information": "Berhasil meningkatkan nilai Biologi di sekolah",
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     },
     {
       "id": 8,
       "name": "Jemima Mosley",
-      "judul": "Pelajaran Matematika",
+      "judul": "Kimia",
       "image": "./img/users/8.jpg",
-      "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "information": "Berhasil meningkatkan nilai Kimia di sekolah",
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     },
     {
       "id": 9,
       "name": "Marcel Dennis",
-      "judul": "Pelajaran Matematika",
+      "judul": "Pendidikan Agama Islam",
       "image": "./img/users/9.jpg",
-      "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "information": "Berhasil meningkatkan nilai PAI di sekolah",
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     },
     {
       "id": 10,
       "name": "Carla Harding",
-      "judul": "Pelajaran Matematika",
+      "judul": "Bahasa Inggris",
       "image": "./img/users/10.jpg",
-      "information": "Berhasil meningkatkan nilai Matematika di sekolah",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, obcaecati! Laboriosam id placeat earum omnis, doloremque veniam. Soluta, perferendis non eum est ab error, reiciendis aliquam aperiam, delectus repellendus at qui rerum cupiditate. Quisquam repellat fuga quas doloribus deleniti inventore."
+      "information": "Berhasil meningkatkan nilai Bahasa Inggris di sekolah",
+      "desc": "Dengan mempelajari pelajaran di Lathy Private saya berhasil mencapai hasil yang saya inginkan, dengan biaya yang terjangkau murah dengan berbagai macam layanan yang diberikan membuat saya merasa nyaman saat mempelajari materi yang diberikan, pengajar yang memberikan kami pemahaman dan ilmu baru yang terkadang diluar dari materi yang kami pelajari itu membantu kami untuk meningkatkan nilai dari diri kami pribadi sehingga mampu bersaing dengan orang lain di luar sana."
     }
   ],
   "programBelajar":[

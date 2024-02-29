@@ -6,7 +6,7 @@ const ProgramBelajar = () => {
   return (
     <>
       <div className="flex justify-center items-center w-full h-full py-4">
-        <div className="flex text-white justify-center items-center w-[75%] sm:w-[70%]">
+        <div className="flex text-white justify-center items-center w-[75%] sm:w-[65%]">
           <div className="flex flex-column items-center justify-center">
             <h1 className="text-lg font-bold">Program Les Private</h1>
             <div className="flex flex-row flex-wrap  sm:justify-around justify-center items-center gap-2 w-full  my-4 p-2">

@@ -128,10 +128,14 @@
       "desc1": "Buat adek-adek yang lagi ngejar pelajaran SD, pasti ngerasain kan betapa kompleks dan susahnya pelajarannya sekarang? Gak bisa dipungkiri, pelajaran SD juga makin tricky, apalagi dengan kurikulum terbaru yang kadang bikin pusing. Ada matematika yang mungkin bikin kalian mikir keras, bahasa Indonesia yang minta fokus, dan masih banyak lagi. Buat adek-adek yang merasa kesulitan di kelas, kita paham kok, dan gak usah khawatir, ada cara buatngatasin kesulitan belajar ini.",
       "desc2": "Buat yang lagi ngerasa kesulitan belajar komunal di kelas, coba deh manfaatin layanan guru privat di LapakGuruPrivat.com. Gak perlu khawatir lagi nyari guru privat yang pas buat adek-adek. Di sini, bisa pilih sendiri guru privat untuk pelajaran SD yang sesuai sama kebutuhan. Enaknya lagi, bisa belajar online atau offline, dan adek-adek juga bisa pilih sendiri waktu yang nyaman. Jadi, gak perlu lagi deh mikirin kesulitan belajar di kelas, karena LapakGuruPrivat.com siap bantu adek-adek buat ngejar pelajaran SD dengan lebih enjoy!",
       "pelajaran": {
-        "pilihan1": "a b c d",
-        "pilihan2": "b c d a",
-        "pilihan3": "c d a b",
-        "pilihan4": "d a b c"
+        "mapel1": "Matematik",
+        "mapel2": "IPA",
+        "mapel3": "IPS",
+        "mapel4": "Pendidikan Kewarganegaraan",
+        "mapel5": "Bahasa Indonesia",
+        "mapel6": "Bahasa Inggris",
+        "mapel7": "Seni Budaya",
+        "mapel8": "Pendidikan Agama Islam"
       }
     },
     {

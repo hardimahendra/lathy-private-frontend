@@ -24,10 +24,14 @@ const ProgramBelajar = () => {
                 <p className="indent-10 text-justify ">{item.desc1}</p>
                 <p className="indent-10 text-justify">{item.desc2}</p>
                 <ul className="list-disc pl-5 bg-yellow-500">
-                  <li>{item.pelajaran.pilihan1}</li>
-                  <li>{item.pelajaran.pilihan2}</li>
-                  <li>{item.pelajaran.pilihan3}</li>
-                  <li>{item.pelajaran.pilihan4}</li>
+                  <li>{item.pelajaran.mapel1}</li>
+                  <li>{item.pelajaran.mapel2}</li>
+                  <li>{item.pelajaran.mapel3}</li>
+                  <li>{item.pelajaran.mapel4}</li>
+                  <li>{item.pelajaran.mapel5}</li>
+                  <li>{item.pelajaran.mapel6}</li>
+                  <li>{item.pelajaran.mapel7}</li>
+                  <li>{item.pelajaran.mapel8}</li>
                 </ul>
               </div>
               // <div className="flex flex-row pl-4  gap-5" hidden={index == 1}>

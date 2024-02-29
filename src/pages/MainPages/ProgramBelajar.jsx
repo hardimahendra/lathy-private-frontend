@@ -6,7 +6,7 @@ const ProgramBelajar = () => {
   return (
     <>
       <div className="flex justify-center items-center w-full h-full py-4">
-        <div className="flex text-white justify-center items-center lg:w-[50%] w-[70%]">
+        <div className="flex text-white justify-center items-center w-[75%] sm:w-[70%]">
           <div className="flex flex-column items-center justify-center">
             <h1 className="text-lg font-bold">Program Les Private</h1>
             <div className="flex flex-row flex-wrap  sm:justify-around justify-center items-center gap-2 w-full  my-4 p-2">
@@ -23,7 +23,7 @@ const ProgramBelajar = () => {
                 <h1 className="font-semibold pb-2">{item.jenjang}</h1>
                 <p className="indent-10 text-justify ">{item.desc1}</p>
                 <p className="indent-10 text-justify">{item.desc2}</p>
-                <ul className="h-[100px] w-full flex flex-column flex-wrap  pl-2 bg-yellow-500">
+                <ul className="sm:h-[100px] w-full flex flex-column flex-wrap  pl-2 bg-yellow-500">
                   <li>{item.pelajaran.mapel1}</li>
                   <li>{item.pelajaran.mapel2}</li>
                   <li>{item.pelajaran.mapel3}</li>

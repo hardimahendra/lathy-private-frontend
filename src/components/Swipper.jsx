@@ -36,7 +36,7 @@ const Swipper = () => {
               </div>
             </Swiper>
           </div>
-          <div className=" lg:w-[50%] text-justify p-4 bg-transparent shadow-lg text-white">
+          <div className=" sm:w-[50%] w-[70%] text-justify p-4 bg-transparent shadow-lg text-white">
             {dataSwipper.map((item) => (
               <div key={item.id} hidden={index != item.id}>
                 <div className="flex justify-between font-bold mb-2">

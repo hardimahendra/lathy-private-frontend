@@ -19,11 +19,11 @@ const ProgramBelajar = () => {
               ))}
             </div>
             {dataProgram.map((item) => (
-              <div className="flex flex-column text-justif pt-2 gap-2 bg-red-500" key={item.id} hidden={index != item.id}>
+              <div className="flex flex-column text-justif pt-2 gap-2 shadow-lg p-4" key={item.id} hidden={index != item.id}>
                 <h1 className="font-semibold pb-2">{item.jenjang}</h1>
                 <p className="indent-10 text-justify ">{item.desc1}</p>
                 <p className="indent-10 text-justify">{item.desc2}</p>
-                <ul className="sm:h-[100px] w-full flex flex-column flex-wrap  pl-2 bg-yellow-500">
+                <ul className="sm:h-[100px] w-full flex flex-column flex-wrap  ">
                   <li>{item.pelajaran.mapel1}</li>
                   <li>{item.pelajaran.mapel2}</li>
                   <li>{item.pelajaran.mapel3}</li>

@@ -22,7 +22,7 @@ const Keunggulan = () => {
           <h1 className="sm:text-2xl pb-2">Layanan & Keunggulan Lathy Private</h1>
           <div className="flex flex-row flex-wrap justify-center items-center w-[50%] ">
             {dataIcon.map(({ id, icon, title, desc }) => (
-              <span key={id} className="flex flex-column justify-center items-center text-center m-2 p-1 h-[300px] w-[450px] ">
+              <span key={id} className="flex flex-column justify-center items-center text-center m-2 p-1 h-[300px] w-[450px] shadow-lg rounded">
                 <i className="text-4xl py-2 ">{icon}</i>
                 <h1 className="text-md font-bold">{title}</h1>
                 <p className="text-sm">{desc}</p>

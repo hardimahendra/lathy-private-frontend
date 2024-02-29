@@ -8,7 +8,7 @@ import Profil from './Profil';
 const Home = () => {
   return (
     <>
-      <div className="flex flex-column pt-2 ">
+      <div className="flex flex-column">
         <div className="flex flex-column items-center justify-center ">
           <ProgramBelajar />
           <Keunggulan />

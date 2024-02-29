@@ -22,13 +22,13 @@ const Profil = () => {
               </div>
               <div className="flex flex-column flex-wrap mx-auto justify-start pt-4 items-center h-[150px]">
                 <h6 className="pb-3 font-bold">Social Media</h6>
-                <Link to="https://www.instagram.com/hardimahendra_/" target="_blank">
+                <Link className="shadow-lg hover:text-pink-500 " to="https://www.instagram.com/hardimahendra_/" target="_blank">
                   <FaInstagram />
                 </Link>
-                <Link className="py-2" to="https://api.whatsapp.com/send?phone=%2B6285892759932" target="_blank">
+                <Link className="shadow-lg hover:text-green-500 py-2"  to="https://api.whatsapp.com/send?phone=%2B6285892759932" target="_blank">
                   <FaWhatsapp />
                 </Link>
-                <Link href="https://web.facebook.com/hardimahendra" to="mailto:hardimahendra35@gmail.com" target="_blank">
+                <Link className="shadow-lg hover:text-red-500 " to="mailto:hardimahendra35@gmail.com" target="_blank">
                   <FaEnvelopeOpen />
                 </Link>
               </div>

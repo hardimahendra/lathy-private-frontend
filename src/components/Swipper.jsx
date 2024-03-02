@@ -7,10 +7,9 @@ import { FiMoreHorizontal } from 'react-icons/fi';
 const Swipper = () => {
   const dataSwipper = swipperData;
   const [index, setIndex] = useState(1);
-  const [show, setShow] = useState(false);
   return (
     <>
-      <div className="vh-100 flex flex-column items-center justify-center relative p-20 ">
+      <div className="flex flex-column items-center justify-center relative ">
         <div className="pb-4 text-white">
           <h4 className="font-semibold text-lg">Cerita Sukses Siswa</h4>
         </div>

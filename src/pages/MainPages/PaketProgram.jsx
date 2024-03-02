@@ -3,7 +3,7 @@ import React from 'react';
 const PaketProgram = () => {
   return (
     <>
-      <div className="flex vh-100 w-full justify-center items-center py-4 ">
+      <div className="flex w-full justify-center items-center ">
         <div className="flex sm:w-[60%] h-auto justify-center items-center text-white  ">
           <div className="flex flex-column w-full justify-center item-center text-center p-4">
             <h1 className="pb-6 text-lg font-semibold">Pilih Paket Les </h1>

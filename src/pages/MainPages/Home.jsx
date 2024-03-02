@@ -8,13 +8,25 @@ import Header from '../../components/Header';
 
 const Home = () => {
   return (
-    <div>
-      <Header />
-      <ProgramBelajar />
-      <Keunggulan />
-      <Swipper />
-      <PaketProgram />
-      <Profil />
+    <div className='flex flex-column gap-2'>
+      <div>
+        <Header />
+      </div>
+      <div className="bg-red-500">
+        <ProgramBelajar />
+      </div>
+      <div className="bg-yellow-500">
+        <Keunggulan />
+      </div>
+      <div className="bg-green-500">
+        <Swipper />
+      </div>
+      <div className="bg-blue-500">
+        <PaketProgram />
+      </div>
+      <div className="bg-purple-500">
+        <Profil />
+      </div>
     </div>
   );
 };

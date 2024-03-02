@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <>
-      <div className="flex lg:justify-around justify-center items-center w-full h-[80vh]  bg-cover bg-center">
+      <div className="flex lg:justify-around justify-center items-center w-full h-svh  bg-cover bg-center">
         <div className="relative flex flex-column justify-center lg:w-[50%] w-[90%] h-full ">
           <h1 className="text-xl sm:text-4xl text-orange-500 font-serif indent-12">Anak Jadi lebih rajin dan produktif dengan bimbingan belajar bersama kami di Lathy Private!</h1>
           <p className="text-md sm:text-2xl text-gray-400 font-serif">Les Private dengan metode belajar interaktif, tutor Profesional dan investasi belajar yang murah dan terpercaya.</p>

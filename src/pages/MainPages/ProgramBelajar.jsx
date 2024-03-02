@@ -5,10 +5,10 @@ const ProgramBelajar = () => {
   const [index, setIndex] = useState(1);
   return (
     <>
-      <div className="h-100 flex justify-center items-center w-full py-4">
+      <div className="vh-100 flex justify-center items-center w-full py-4">
         <div className="flex text-white justify-center items-center w-[75%] sm:w-[65%]">
           <div className="flex flex-column items-center justify-center">
-            <h1 className="text-lg font-bold">Program Les Private</h1>
+            <h1 className="text-lg font-semibold">Program Les Private</h1>
             <div className="flex flex-row flex-wrap  sm:justify-around justify-center items-center gap-2 w-full  my-4 p-2">
               {dataProgram.map((item) => (
                 <>

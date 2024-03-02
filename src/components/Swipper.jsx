@@ -10,9 +10,9 @@ const Swipper = () => {
   const [show, setShow] = useState(false);
   return (
     <>
-      <div className="flex flex-column items-center justify-center relative p-20 ">
+      <div className="vh-100 flex flex-column items-center justify-center relative p-20 ">
         <div className="pb-4 text-white">
-          <h4 className="text-bold text-xl">Cerita Sukses Siswa</h4>
+          <h4 className="font-semibold text-lg">Cerita Sukses Siswa</h4>
         </div>
         <div className="flex flex-wrap lg:w-[75%] sm:flex-column justify-center w-full gap-4">
           <div className="lg:w-[40%] w-full ">

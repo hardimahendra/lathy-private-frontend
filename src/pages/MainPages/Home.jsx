@@ -7,15 +7,13 @@ import Profil from './Profil';
 
 const Home = () => {
   return (
-    <>
-      <div className="flex flex-column">
-        <ProgramBelajar />
-        <Keunggulan />
-        <Swipper />
-        <PaketProgram />
-        <Profil />
-      </div>
-    </>
+    <div className="m-0 p-0 w-full h-full">
+      <ProgramBelajar />
+      <Keunggulan />
+      <Swipper />
+      <PaketProgram />
+      <Profil />S{' '}
+    </div>
   );
 };
 export default Home;

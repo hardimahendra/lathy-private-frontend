@@ -6,12 +6,12 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <div className=" overflow-hidden">
       <Navbar />
       <Header />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
 

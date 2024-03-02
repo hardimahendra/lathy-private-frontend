@@ -7,12 +7,12 @@ import Profil from './Profil';
 
 const Home = () => {
   return (
-    <div className="m-0 p-0 w-full h-full">
+    <div>
       <ProgramBelajar />
       <Keunggulan />
       <Swipper />
       <PaketProgram />
-      <Profil />S{' '}
+      <Profil />
     </div>
   );
 };

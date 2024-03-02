@@ -8,7 +8,7 @@ import Header from '../../components/Header';
 
 const Home = () => {
   return (
-    <div className="flex flex-column">
+    <div >
       <div>
         <Header />
       </div>

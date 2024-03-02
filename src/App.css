@@ -7,6 +7,7 @@ html, body {
     background: linear-gradient(to right, #00546b, #000046); 
 }
 
+
 .active{
     @apply text-orange-500 
 }

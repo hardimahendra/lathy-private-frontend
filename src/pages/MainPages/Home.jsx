@@ -8,11 +8,11 @@ import Header from '../../components/Header';
 
 const Home = () => {
   return (
-    <div className='flex flex-column gap-2'>
+    <div className="flex flex-column">
       <div>
         <Header />
       </div>
-      <div className="bg-red-500">
+      <div className="bg-red-500 ">
         <ProgramBelajar />
       </div>
       <div className="bg-yellow-500">

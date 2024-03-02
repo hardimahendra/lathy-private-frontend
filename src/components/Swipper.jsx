@@ -9,7 +9,7 @@ const Swipper = () => {
   const [index, setIndex] = useState(1);
   return (
     <>
-      <div className="flex flex-column items-center justify-center relative ">
+      <div className="flex flex-column items-center justify-center relative sm:h-svh ">
         <div className="pb-4 text-white">
           <h4 className="font-semibold text-lg">Cerita Sukses Siswa</h4>
         </div>

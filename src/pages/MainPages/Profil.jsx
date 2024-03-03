@@ -4,7 +4,7 @@ import { FaWhatsapp, FaInstagram, FaEnvelopeOpen } from 'react-icons/fa6';
 const Profil = () => {
   return (
     <>
-      <div className=" flex flex-column justify-center text-white gap-4 sm:h-svh ">
+      <div className=" flex flex-column justify-center text-white gap-4 sm:h-svh pt-28">
         <h1 className="text-center text-lg font-semibold">Tentang Kami</h1>
         <div className="flex flex-wrap justify-around gap-4">
           <div className="flex flex-column justify-center items-center px-5 py-3">

@@ -5,8 +5,8 @@ const ProgramBelajar = () => {
   const [index, setIndex] = useState(1);
   return (
     <>
-      <div className="flex justify-center items-stretch sm:h-svh pt-0 sm:pt-10">
-        <div className="flex text-white justify-center items-center w-[75%] sm:w-[65%]">
+      <div className="flex justify-center items-center sm:h-svh  pt-28">
+        <div className="flex text-white justify-center  items-center w-[75%] sm:w-[65%] ">
           <div className="flex flex-column items-center justify-center">
             <h1 className="text-lg font-semibold">Program Les Private</h1>
             <div className="flex flex-row flex-wrap  sm:justify-around justify-center items-center gap-2 w-full  my-4 p-2">

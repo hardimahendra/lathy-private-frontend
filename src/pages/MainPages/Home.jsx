@@ -8,23 +8,23 @@ import Header from '../../components/Header';
 
 const Home = () => {
   return (
-    <div >
+    <div>
       <div>
         <Header />
       </div>
-      <div className="bg-red-500 ">
+      <div>
         <ProgramBelajar />
       </div>
-      <div className="bg-yellow-500">
+      <div>
         <Keunggulan />
       </div>
-      <div className="bg-green-500">
+      <div>
         <Swipper />
       </div>
-      <div className="bg-blue-500">
+      <div>
         <PaketProgram />
       </div>
-      <div className="bg-purple-500">
+      <div>
         <Profil />
       </div>
     </div>
